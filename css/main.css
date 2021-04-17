@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  --rgb-highlight: 4, 217, 255;
+  --highlight: var(--text-color);
+  --background: #000700;
+  --text-color: #4AEF98;
+  --close-button: var(--dnd-color) !important;
+  --online-color: #39ff14;
+  --afk-color: #FFFF33;
+  --dnd-color: #FF0000;
+  --streaming-color: #bc13fe;
+  --rs-online-color: var(--online-color);
+  --rs-idle-color: var(--afk-color);
+  --rs-dnd-color: var(--dnd-color);
+  --rs-offline-color: gray;
+  --rs-invisible-color: gray;
+  --rs-streaming-color: var(--stream-color);
+  --interactive-hover: var(--highlight);
+  --interactive-active: var(--highlight);
+  --text-link: var(--highlight);
+  --bdfdb-blurple: var(--highlight);
+  --logo-primary: var(--highlight);
+  --focus-primary: var(--highlight);
+  --radio-group-dot-foreground: var(--highlight);
+  --scrollbar-thin-thumb: var(--highlight);
+  --scrollbar-auto-thumb: var(--highlight);
+  --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
+  --scrollbar-thin-track: var(--background);
+  --scrollbar-auto-track: var(--background);
+  --scrollbar-auto-scrollbar-color-track: var(--background);
+  --activity-card-background: var(--background);
+  --background-primary: var(--background);
+  --background-mobile-primary: var(--background);
+  --background-secondary: var(--background);
+  --background-mobile-secondary: var(--background);
+  --background-secondary-alt: var(--background);
+  --background-tertiary: var(--background);
+  --background-accent: var(--background);
+  --background-floating: var(--background);
+  --text-normal: var(--text-color);
+  --text-muted: var(--text-color);
+  --header-primary: var(--text-color);
+  --header-secondary: var(--text-color);
+  --channels-default:var(--text-color);
+  --interactive-normal: var(--text-color);
+  --channeltextarea-background: var(--background);
+  --textbox-markdown-syntax: var(--background);
+}
+
+html, body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+html,body::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+body * {
+  pointer-events: auto;
+}
+
+.wrapper-2q53zr, .edge-1lOOiT, .middle-2H7H6R, .half-2cquxE {
+  pointer-events: none !important;
+}
