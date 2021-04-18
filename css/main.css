@@ -127,3 +127,8 @@ body * {
 .closeWrapper-9ScmSq, .theme-dark .perksModal-fSYqOq, .peopleList-3c4jOR, .peopleColumn-29fq28 {
   background-color: var(--background);
 }
+
+/* --== Style the emoji-autocomplete window ==-- */
+.autocompleteInner-zh20B_ {
+  background-color: var(--background);
+}
