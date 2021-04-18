@@ -30,22 +30,22 @@
   --scrollbar-auto-track: var(--background);
   --scrollbar-auto-scrollbar-color-track: var(--background);
   --activity-card-background: var(--background);
-  --background-primary: var(--background) !important;
-  --background-mobile-primary: var(--background) !important;
-  --background-secondary: var(--background) !important;
-  --background-mobile-secondary: var(--background) !important;
-  --background-secondary-alt: var(--background) !important;
-  --background-tertiary: var(--background) !important;
-  --background-accent: var(--background) !important;
-  --background-floating: var(--background) !important;
-  --text-normal: var(--text-color) !important;
-  --text-muted: var(--text-color) !important;
-  --header-primary: var(--text-color) !important;
-  --header-secondary: var(--text-color) !important;
-  --channels-default:var(--text-color) !important;
+  --background-primary: var(--background);
+  --background-mobile-primary: var(--background);
+  --background-secondary: var(--background);
+  --background-mobile-secondary: var(--background);
+  --background-secondary-alt: var(--background);
+  --background-tertiary: var(--background);
+  --background-accent: var(--background);
+  --background-floating: var(--background);
+  --text-normal: var(--text-color);
+  --text-muted: var(--text-color);
+  --header-primary: var(--text-color);
+  --header-secondary: var(--text-color);
+  --channels-default:var(--text-color);
   --interactive-normal: var(--text-color);
-  --channeltextarea-background: var(--background) !important;
-  --textbox-markdown-syntax: var(--background) !important;
+  --channeltextarea-background: var(--background);
+  --textbox-markdown-syntax: var(--background);
 }
 
 /* --== Change font ==-- */
