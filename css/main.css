@@ -48,10 +48,12 @@
   --textbox-markdown-syntax: var(--background);
 }
 
+/* --== Change font ==-- */
 html, body {
   font-family: 'Share Tech Mono', monospace;
 }
 
+/* --== Add CRT effect ==-- */
 html,body::before {
   content: " ";
   display: block;
@@ -66,10 +68,12 @@ html,body::before {
   pointer-events: none;
 }
 
+/* --== Make sure everything's still clickable ==-- */
 body * {
   pointer-events: auto;
 }
 
+/* --== Okay maybe not everything... WHAT EVEN ARE THESE?! ==-- */
 .wrapper-2q53zr, .edge-1lOOiT, .middle-2H7H6R, .half-2cquxE {
   pointer-events: none !important;
 }
