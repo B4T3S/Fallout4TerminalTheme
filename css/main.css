@@ -3,7 +3,7 @@
 :root, .theme-light {
   --rgb-highlight: 4, 217, 255;
   --highlight: var(--text-color);
-  --background: #000700;
+  --background: #000900;
   --text-color: #4AEF98;
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
@@ -54,7 +54,7 @@ html, body {
 }
 
 /* --== Add CRT effect ==-- */
-html,body::before {
+html,body::before, .theme-dark .perksModal-fSYqOq::before {
   content: " ";
   display: block;
   position: absolute;
@@ -76,4 +76,53 @@ body * {
 /* --== Okay maybe not everything... WHAT EVEN ARE THESE?! ==-- */
 .wrapper-2q53zr, .edge-1lOOiT, .middle-2H7H6R, .half-2cquxE {
   pointer-events: none !important;
+}
+
+.wordmarkWindows-1v0lYD svg {
+  width: 0px;
+}
+
+/* Add custom title! */
+.wordmarkWindows-1v0lYD::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 240px !important;
+  height: 14px !important;
+}
+
+/* --== Style codeblocks and Markdown notation in Chat inputbox ==-- */
+.codeBlockSyntax-2i-tMA, .syntaxAfter-hcA4AH, .syntaxBefore-1YQ9lW {
+  color: var(--highlight);
+}
+
+/* --== Style "Create Server" popout ==-- */
+.markup-2BOw-j code {
+  border: 1px solid var(--highlight);
+}
+
+.colorHeaderPrimary-26Jzh- {
+  color: var(--highlight);
+}
+
+.root-1gCeng, .theme-light .footer-2gL1pp {
+  background-color: var(--background) !important;
+}
+
+/* --== Style server explorer ==-- */
+.scroller-1d5FgU {
+  background-color: var(--background);
+}
+
+.notice-2X5hT5 {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style Server Boost/Friends page ==-- */
+.closeWrapper-9ScmSq, .theme-dark .perksModal-fSYqOq, .peopleList-3c4jOR, .peopleColumn-29fq28 {
+  background-color: var(--background);
 }
