@@ -54,7 +54,8 @@ html, body {
 }
 
 /* --== Add CRT effect ==-- */
-html,body::before, .theme-dark .perksModal-fSYqOq::before {
+html,body::before, .theme-dark .perksModal-fSYqOq::before,
+.standardSidebarView-3F1I7i::before {
   content: " ";
   display: block;
   position: absolute;
