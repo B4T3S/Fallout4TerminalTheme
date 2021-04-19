@@ -55,7 +55,8 @@ html, body {
 
 /* --== Add CRT effect ==-- */
 html,body::before, .theme-dark .perksModal-fSYqOq::before,
-.standardSidebarView-3F1I7i::before {
+.standardSidebarView-3F1I7i::before, .userPopout-3XzG_A::before,
+.inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-r_nuzN::before {
   content: " ";
   display: block;
   position: absolute;
@@ -70,7 +71,7 @@ html,body::before, .theme-dark .perksModal-fSYqOq::before,
 }
 
 /* --== Make sure everything's still clickable ==-- */
-body * {
+body *, .userPopout-3XzG_A * {
   pointer-events: auto;
 }
 
@@ -131,4 +132,59 @@ body * {
 /* --== Style the emoji-autocomplete window ==-- */
 .autocompleteInner-zh20B_ {
   background-color: var(--background);
+}
+
+/* --== Style the user popout ==-- */
+.userPopout-3XzG_A {
+  margin-right: 1vw;
+  border: 1px solid var(--highlight);
+}
+
+.headerPlaying-j0WQBV, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+.headerTop-3C2Zn0 {
+  background-color: var(--background);
+}
+
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+  border: 1px solid var(--highlight);
+}
+
+.header-QKLPzZ {
+  background-color: var(--background);
+}
+
+.headerFill-adLl4x {
+  background-color: var(--background);
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY, .lookInverted-2D7oAl.colorBrand-3pXr91 {
+  background-color: var(--background);
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+/* --== Style search popout ==-- */
+.input-2VB9rf {
+  background-color: var(--background);
+}
+
+.inner-1ilYF7 * {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.resultsGroup-r_nuzN {
+  background-color: var(--background);
+}
+
+.resultsGroup-r_nuzN * {
+  color: var(--highlight) !important;
+}
+
+.theme-dark .option-96V44q:after {
+  display: none;
 }
