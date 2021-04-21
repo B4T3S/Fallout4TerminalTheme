@@ -85,6 +85,10 @@ body *, .userPopout-3XzG_A * {
   width: 0px;
 }
 
+.autoPointerEvents-3UGDkq {
+  pointer-events: auto !important;
+}
+
 /* Add custom title! */
 .wordmarkWindows-1v0lYD::after {
   content: '';
