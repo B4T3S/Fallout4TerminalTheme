@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 
 :root, .theme-light {
   --rgb-highlight: 4, 217, 255;
@@ -57,7 +59,8 @@ html, body {
 html,body::before, .theme-dark .perksModal-fSYqOq::before,
 .standardSidebarView-3F1I7i::before, .userPopout-3XzG_A::before,
 .inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-r_nuzN::before,
-.theme-dark .root-1gCeng::after, .container-1r6BKw.themed-ANHk51::after {
+.theme-dark .root-1gCeng::after, .container-1r6BKw.themed-ANHk51::after,
+.drawerSizingWrapper-17Mss4::after {
   content: " ";
   display: block;
   position: absolute;
@@ -101,6 +104,94 @@ body *, .userPopout-3XzG_A * {
   background-color: var(--highlight);
   width: 240px !important;
   height: 14px !important;
+}
+
+/* Fix some USRBG stuff */
+
+.headerTop-3C2Zn0 {
+  background: transparent !important;
+  background-color: unset;
+}
+
+.newMessagesBar-265mhP {
+  background-color: var(--highlight);
+}
+
+.newMessagesBar-265mhP * {
+  color: var(--background);
+}
+
+/* --== Style the unread message bar ==-- */
+.isUnread-3Ef-o9 {
+  border-color: var(--highlight);
+}
+
+.isUnread-3Ef-o9 .content-1o0f9g {
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+}
+
+.wrapper-2jXpOf:hover > .unread-2lAfLh {
+  background-color: var(--highlight);
+}
+
+.unreadPill-2HyYtt {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.guildSeparator-33mFX6 {
+  background-color: var(--highlight);
+  border-radius: 2px;
+}
+
+.unreadPillCapStroke-7rkHbg {
+  color: var(--highlight);
+  fill: var(--highlight);
+}
+
+/* --== Re-color blue/gray button(s) ==-- */
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: var(--background);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+  color: var(--highlight);
+}
+
+.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover > div {
+  background-image: linear-gradient(0deg,transparent,transparent 1px,var(--highlight) 0,var(--highlight) 2px,transparent 0) !important;
+}
+
+/* --== Style home button ==-- */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: var(--highlight);
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 svg path, .wrapper-1BJsBx:hover .childWrapper-anI2G9 svg path {
+  fill: var(--background);
+}
+
+.homeIcon-FuNwkv path {
+  fill: var(--highlight);
+}
+
+/* --== Style GIF Picker text's ==-- */
+
+.theme-dark .categoryText-2-8pri, .theme-light .categoryText-2-8pri  *{
+  color: var(--highlight);
 }
 
 /* --== Style codeblocks and Markdown notation in Chat inputbox ==-- */
