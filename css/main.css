@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-1VyQPT:last-child::after {
-  content: "Fallout Terminal Version 1.2.0";
+  content: "Fallout Terminal Version 1.2.1";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -70,7 +70,7 @@ html,body::before, .theme-dark .perksModal-fSYqOq::before,
 .standardSidebarView-3F1I7i::before, .userPopout-3XzG_A::before,
 .inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-r_nuzN::before,
 .theme-dark .root-1gCeng::after, .container-1r6BKw.themed-ANHk51::after,
-.drawerSizingWrapper-17Mss4::after {
+.drawerSizingWrapper-17Mss4::after, .layer-v9HyYc::after {
   content: " ";
   display: block;
   position: absolute;
