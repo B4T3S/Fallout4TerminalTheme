@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url('https://commandcrafterhd.github.io/DiscordDarkNeon/css/usertags.css');
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
 
 :root, .theme-light {
   --rgb-highlight: 4, 217, 255;
@@ -49,6 +50,15 @@
   --channeltextarea-background: var(--background);
   --textbox-markdown-syntax: var(--background);
 }
+
+/* VERSION INFO */
+.info-1VyQPT:last-child::after {
+  content: "Fallout Terminal Version 1.2.0";
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--highlight);
+}
+/* VERSION INFO */
 
 /* --== Change font ==-- */
 html, body {
@@ -106,80 +116,18 @@ body *, .userPopout-3XzG_A * {
   height: 14px !important;
 }
 
-/*
-=========================================== USRBG Popouts by Tropix126. ===========================================
-*/
+/* --== Styling custom User Popouts ==-- */
 
-.theme-dark .headerNormal-T_seeN {
-    background-color: var(--background);
+.popoutBanner-19WKGg {
+  height: 120px;
 }
 
-.userPopout-3XzG_A {
-	transform:translateZ(0);
+.userPopout-xaxa6l {
+	--USRBG-banner-height: 120px;
 }
 
-.headerTop-3C2Zn0 {
-    background: transparent !important;
-    background-color: unset;
-}
-
-.headerInfo-30uryT *, .tabBarItem-1b8RUP *, .activity-1ythUs * {
-  color: var(--highlight) !important;
-}
-
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	pointer-events: none;
-	opacity: .5;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-	background-image: var(--user-background);
-	-webkit-mask-image: linear-gradient(#000, transparent);
-}
-
-.userPopout-3XzG_A  .header-2BwW8b,
-.userPopout-3XzG_A  .scroller-2FKFPG,
-.userPopout-3XzG_A  .footer-1fjuF6 {
-	z-index: 1;
-}
-
-.userPopout-3XzG_A {
-  --user-popout-position: center
-}
-
-.root-SR8cQa {
-  transform: translateZ(0);
-}
-.header-QKLPzZ .wrapper-3t9DeA::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: .5;
-  pointer-events: none;
-  background: var(--user-background) center/cover no-repeat;
-  -webkit-mask: linear-gradient(black, transparent 80%);
-}
-
-.headerInfo-30uryT,
-.tabBarItem-1b8RUP,
-.activity-1ythUs {
-  z-index: 1;
-  position: relative;
-}
-
-.headerTop-3C2Zn0 {
-  background: transparent !important;
-  background-color: unset;
+.avatarWrapperNormal-26WQIb {
+  top: 76px;
 }
 
 .newMessagesBar-265mhP {
