@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Fallout Terminal Version 1.2.5";
+  content: "Fallout Terminal Version 1.2.6";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -68,7 +68,7 @@ html, body {
 /* --== Add CRT effect ==-- */
 html,body::before, .theme-dark .perksModal-fSYqOq::before,
 .standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
-.inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-r_nuzN::before,
+.inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-1BPR25::before,
 .theme-dark .root-1gCeng::after, .container-1r6BKw.themed-ANHk51::after,
 .drawerSizingWrapper-17Mss4::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
 .quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after {
@@ -298,16 +298,21 @@ body *, .userPopout-3XzG_A * {
   font-family: 'Share Tech Mono', monospace;
 }
 
-.resultsGroup-r_nuzN {
+.resultsGroup-1BPR25 {
   background-color: var(--background);
 }
 
-.resultsGroup-r_nuzN * {
+.resultsGroup-1BPR25 * {
   color: var(--highlight) !important;
 }
 
-.theme-dark .option-96V44q:after {
+.option-2KkUJO:after {
   display: none;
+}
+
+.queryContainer-ZunrLZ {
+  background-color: var(--background) !important;
+  color: var(--highlight) !important;
 }
 
 /* --== Style "Reactions" popout ==-- */
