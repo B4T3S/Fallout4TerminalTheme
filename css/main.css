@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Fallout Terminal Version 1.2.6";
+  content: "Fallout Terminal Version 1.2.7";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -71,7 +71,7 @@ html,body::before, .theme-dark .perksModal-fSYqOq::before,
 .inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-1BPR25::before,
 .theme-dark .root-1gCeng::after, .container-1r6BKw.themed-ANHk51::after,
 .drawerSizingWrapper-17Mss4::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
-.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after {
+.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after {
   content: " ";
   display: block;
   position: absolute;
@@ -253,6 +253,11 @@ body *, .userPopout-3XzG_A * {
 /* --== Style the emoji-autocomplete window ==-- */
 .autocompleteInner-zh20B_ {
   background-color: var(--background);
+}
+
+/* --== Style trust this link popout ==-- */
+.form-2oOOG9 > div {
+  background-color: var(--background) !important;
 }
 
 /* --== Style the user popout ==-- */
