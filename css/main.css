@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Fallout Terminal Version 1.2.4";
+  content: "Fallout Terminal Version 1.2.5";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -67,10 +67,11 @@ html, body {
 
 /* --== Add CRT effect ==-- */
 html,body::before, .theme-dark .perksModal-fSYqOq::before,
-.standardSidebarView-E9Pc3j::before, .userPopout-3XzG_A::before,
+.standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
 .inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-r_nuzN::before,
 .theme-dark .root-1gCeng::after, .container-1r6BKw.themed-ANHk51::after,
-.drawerSizingWrapper-17Mss4::after, .layer-v9HyYc::after {
+.drawerSizingWrapper-17Mss4::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
+.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after {
   content: " ";
   display: block;
   position: absolute;
@@ -97,7 +98,7 @@ body *, .userPopout-3XzG_A * {
 /* --== Okay maybe not everything... ==-- */
 .target-1eRTCg, .centerTarget-S6BLFQ,
 .spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv .wrapper-3WhCwL,
-.layer-1Ixpg3 {
+.layer-1Ixpg3, .cannonWrapper-3dB5_m, .cannon-3uTo6m {
   pointer-events: none !important;
 }
 
@@ -389,8 +390,23 @@ body *, .userPopout-3XzG_A * {
 }
 
 /* --== Style Invite friends to this server modal ==-- */
-.theme-dark .footer-1FPmkC {
-  background-color: var(--background);
+.modal-atz_3z > div {
+  background-color: var(--background) !important;
+}
+
+.colorStandard-21JIj7 {
+  color: var(--highlight) !important;
+}
+
+.copyButton-2k4drX, .inviteRowButton-3hcOhY {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  color: var(--highlight) !important;
+}
+
+.copyButton-2k4drX:hover, .inviteRowButton-3hcOhY:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
 }
 
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
