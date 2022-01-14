@@ -1,5 +1,10 @@
-<h1>Fallout 4 Terminal Theme</h1>
-<img src="http://cegledi.net/uploads/20-04-2021_368.png">
+<div align="center">
+  <a href="https://discord.gg/6qd3SkP6Ch" target="_blank"><img src="https://img.shields.io/discord/931137677695266856?label=Discord&logo=Discord"></img></a>
+  <a href="https://www.paypal.com/paypalme/floriancegledi" target="_blank"><img src="https://img.shields.io/badge/PayPal-Support%20me%3F-blue"></img></a>
+  <a href="https://www.patreon.com/bates" target="_blank"><img src="https://img.shields.io/badge/Patreon-Support%20me%3F-f96854"></img></a>
+</div>
+<h1 align="center">Fallout 4 Terminal Theme</h1>
+<img src="https://commandcrafterhd.github.io/Fallout4TerminalTheme/img/FalloutTerminal.png">
 
 <h2>About</h2>
 
@@ -20,6 +25,9 @@ Installing betterdiscord themes is really easy!
 You can easily customize this theme by editing the .theme.css file! Just change the variables to whatever you want!
 If you need help finding the right value(s), head on over to [the theme's website](https://commandcrafterhd.github.io/Fallout4TerminalTheme/) which has a handy color-picker!
 
+<h2>Need more help?</h2>
+
+No worries! Just head on over to my <a href="https://discord.gg/6qd3SkP6Ch" target="_blank">Discord Server</a>, you'll be sure to find whatever help you need customizing over there! :)
+
 <h2>Want to support me?</h2>
-By request I opened a [Patreon](https://www.patreon.com/bates)! You can get a cool badge behind your name in Discord by pledging 5$ or more per month!
-Of course you can also just send me a tip over at [PayPal](https://www.paypal.com/paypalme/floriancegledi)!
+If you want to support me, you can do so either on <a href="https://www.patreon.com/bates" target="_blank">Patreon</a> or <a href="https://www.paypal.com/paypalme/floriancegledi" target="_blank">Paypal</a>!
