@@ -4,6 +4,7 @@ body::before, .theme-dark .perksModal-fSYqOq::before,
 .inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-1BPR25::before,
 .theme-dark .root-1gCeng::after, .container-1r6BKw.themed-ANHk51::after,
 .drawerSizingWrapper-17Mss4::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
-.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after {
+.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after,
+.autocompleteInner-y1mjDl::after {
   display: none;
 }
