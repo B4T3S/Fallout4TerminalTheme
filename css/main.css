@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Fallout Terminal Version 1.3.1";
+  content: "Fallout Terminal Version 1.3.2";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -68,9 +68,9 @@ html, body {
 /* --== Add CRT effect ==-- */
 html,body::before, .theme-dark .perksModal-fSYqOq::before,
 .standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
-.inner-1ilYF7::before, .container-1CE3eW::before, .resultsGroup-1BPR25::before,
-.theme-dark .root-1gCeng::after, .container-1r6BKw.themed-ANHk51::after,
-.drawerSizingWrapper-17Mss4::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
+.inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup-1BPR25::before,
+.theme-dark .root-g14mjS::after, .container-ZMc96U.themed-Hp1KC_::after,
+.drawerSizingWrapper-1txdWG::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
 .quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after,
 .autocompleteInner-y1mjDl::after {
   content: " ";
@@ -87,7 +87,7 @@ html,body::before, .theme-dark .perksModal-fSYqOq::before,
 }
 
 /* --== Make sure the BetterDiscord version is readable ==-- */
-.colorMuted-HdFt4q {
+.colorMuted-20987_ {
   color: var(--text-color);
 }
 
@@ -98,7 +98,7 @@ body *, .userPopout-3XzG_A * {
 
 /* --== Okay maybe not everything... ==-- */
 .target-1eRTCg, .centerTarget-S6BLFQ,
-.spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv .wrapper-3WhCwL,
+.spoilerText-27bIiA.hidden-3B-Rum .inlineContent-2YnoDy .wrapper-1ZcZW-,
 .layer-1Ixpg3, .cannonWrapper-3dB5_m, .cannon-3uTo6m {
   pointer-events: none !important;
 }
@@ -107,12 +107,12 @@ body *, .userPopout-3XzG_A * {
   pointer-events: auto !important;
 }
 
-.wordmarkWindows-1v0lYD svg {
+.wordmarkWindows-2dq6rw svg {
   width: 0px;
 }
 
 /* Add custom title! */
-.wordmarkWindows-1v0lYD::after {
+.wordmarkWindows-2dq6rw::after {
   content: '';
   display: inline-block;
   -webkit-mask-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg");
@@ -125,41 +125,41 @@ body *, .userPopout-3XzG_A * {
 
 /* --== Styling custom User Popouts ==-- */
 
-.popoutBanner-19WKGg {
+.popoutBanner-3cqRD9 {
   height: 120px;
 }
 
-.userPopout-xaxa6l {
+.userPopout-2j1gM4 {
 	--USRBG-banner-height: 120px;
 }
 
-.avatarWrapperNormal-26WQIb {
+.avatarWrapperNormal-ahVUaC {
   top: 76px;
 }
 
-.newMessagesBar-265mhP {
+.newMessagesBar-1hF-9G {
   background-color: var(--highlight);
 }
 
-.newMessagesBar-265mhP * {
+.newMessagesBar-1hF-9G * {
   color: var(--background);
 }
 
 /* --== Style the unread message bar ==-- */
-.isUnread-3Ef-o9 {
+.isUnread-3Lojb- {
   border-color: var(--highlight);
 }
 
-.isUnread-3Ef-o9 .content-1o0f9g {
+.isUnread-3Lojb- .content-3spvdd {
   color: var(--highlight);
   border: 1px solid var(--highlight);
 }
 
-.wrapper-2jXpOf:hover > .unread-2lAfLh {
+.wrapper-NhbLHG:hover > .unread-36eUEm {
   background-color: var(--highlight);
 }
 
-.unreadPill-2HyYtt {
+.unreadPill-3nEWYM {
   background-color: var(--highlight);
   color: var(--background);
 }
@@ -169,42 +169,42 @@ body *, .userPopout-3XzG_A * {
   border-radius: 2px;
 }
 
-.unreadPillCapStroke-7rkHbg {
+.unreadPillCapStroke-1nE1Q8 {
   color: var(--highlight);
   fill: var(--highlight);
 }
 
 /* --== Re-color blue/gray button(s) ==-- */
-.lookFilled-1Gx00P.colorBrand-3pXr91,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6,
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ,
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
   background-color: var(--background);
   color: var(--highlight);
   border: 1px solid var(--highlight);
   transition-duration: .3s;
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
   background-color: var(--highlight);
   color: var(--background);
 }
 
-.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
   color: var(--highlight);
 }
 
-.theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover > div {
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo:hover > div {
   background-image: linear-gradient(0deg,transparent,transparent 1px,var(--highlight) 0,var(--highlight) 2px,transparent 0) !important;
 }
 
 /* --== Style home button ==-- */
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
   background-color: var(--highlight);
 }
 
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 svg path, .wrapper-1BJsBx:hover .childWrapper-anI2G9 svg path {
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub svg path, .wrapper-3kah-n:hover .childWrapper-1j_1ub svg path {
   fill: var(--background);
 }
 
@@ -214,40 +214,40 @@ body *, .userPopout-3XzG_A * {
 
 /* --== Style GIF Picker text's ==-- */
 
-.theme-dark .categoryText-2-8pri, .theme-light .categoryText-2-8pri  *{
+.theme-dark .categoryText-2i9GtE, .theme-light .categoryText-2i9GtE  *{
   color: var(--highlight);
 }
 
 /* --== Style codeblocks and Markdown notation in Chat inputbox ==-- */
-.codeBlockSyntax-2i-tMA, .syntaxAfter-hcA4AH, .syntaxBefore-1YQ9lW {
+.codeBlockSyntax-2MZ-Qy, .syntaxAfter-OxiKEl, .syntaxBefore-3pDAmR {
   color: var(--highlight);
 }
 
 /* --== Style "Create Server" popout ==-- */
-.markup-2BOw-j code {
+.markup-eYLPri code {
   border: 1px solid var(--highlight);
 }
 
-.colorHeaderPrimary-26Jzh- {
+.colorHeaderPrimary-jN_yGr {
   color: var(--highlight);
 }
 
-.root-1gCeng, .theme-light .footer-2gL1pp {
+.root-g14mjS, .theme-light .footer-31IekZ {
   background-color: var(--background) !important;
 }
 
 /* --== Style server explorer ==-- */
-.scroller-1d5FgU {
+.scroller-3j5xK2 {
   background-color: var(--background);
 }
 
-.notice-2X5hT5 {
+.notice-12Koq- {
   background-color: var(--background);
   border: 1px solid var(--highlight);
 }
 
 /* --== Style Server Boost/Friends page ==-- */
-.closeWrapper-9ScmSq, .theme-dark .perksModal-fSYqOq, .peopleList-3c4jOR, .peopleColumn-1wMU14 {
+.closeWrapper-9ScmSq, .theme-dark .perksModal-fSYqOq, .peopleList-2VBrVI, .peopleColumn-1wMU14 {
   background-color: var(--background);
 }
 
@@ -277,7 +277,7 @@ body *, .userPopout-3XzG_A * {
   background-color: var(--background);
 }
 
-.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+.input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
   border: 1px solid var(--highlight);
 }
 
@@ -289,19 +289,19 @@ body *, .userPopout-3XzG_A * {
   background-color: var(--background);
 }
 
-.lookFilled-1Gx00P.colorGreen-29iAKY, .lookInverted-2D7oAl.colorBrand-3pXr91 {
+.lookFilled-yCfaCM.colorGreen-3y-Z79, .lookInverted-2mDUMi.colorBrand-I6CyqQ {
   background-color: var(--background);
   color: var(--highlight);
   transition-duration: .3s;
 }
 
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
   background-color: var(--highlight);
   color: var(--background);
 }
 
 /* --== Style search popout ==-- */
-.input-2VB9rf {
+.input-3r5zZY {
   background-color: var(--background);
 }
 
@@ -327,81 +327,81 @@ body *, .userPopout-3XzG_A * {
 }
 
 /* --== Style "Reactions" popout ==-- */
-.theme-dark .container-1If-HZ, .theme-dark .reactors-Blmlhw, .theme-dark .scroller-1-nKid {
+.theme-dark .container-KM8BU6, .theme-dark .reactors-1VXca7, .theme-dark .scroller-2GkvCq {
   background-color: var(--background);
 }
 
 /* --== Style payment page ==-- */
-.theme-dark .paymentPane-3bwJ6A div, .theme-dark .codeRedemptionRedirect-1wVR4b {
+.theme-dark .paymentPane-ut5qKZ div, .theme-dark .codeRedemptionRedirect-3SBiCp {
   background-color: var(--background);
 }
 
 /* --== Style audio/video settings ==-- */
-.css-1ye7vu0, .horizontal-1ae9ci>.flex-1xMQg5:last-child, .horizontal-1ae9ci>.flexChild-faoVW3:last-child {
+.css-1ye7vu0, .horizontal-112GEH>.flex-2S1XBF:last-child, .horizontal-112GEH>.flexChild-3PzYmX:last-child {
   background-color: var(--background);
 }
 
 /* --== Style "activity" settings ==-- */
-.theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s,
-.theme-dark .addGamePopout-2RY8Ju {
+.theme-dark .notDetected-2HEmAp, .theme-light .notDetected-2HEmAp,
+.theme-dark .addGamePopout-3yePJc {
   background-color: var(--background);
 }
 
 /* --== Style color picker ==-- */
-.theme-dark .colorPickerCustom-2CWBn2 {
+.theme-dark .colorPickerCustom-1swUKF {
   background-color: var(--background);
 }
 
 /* --== Style phonenumber input ==-- */
-.theme-dark .elevationBorderLow-2qgTRQ {
+.theme-dark .elevationBorderLow-3_3rXL {
   background-color: var(--background);
 }
 
 /* --== Style create DM Group ==-- */
-.nameTag-m8r81H {
+.nameTag-H6kSJ0 {
   color: var(--highlight);
 }
 
 /* --== Style Keyboard shortcuts modal ==-- */
-.theme-dark .keyboardShortcutsModal-3piNz7 {
+.theme-dark .keyboardShortcutsModal-2CRmCm {
   background-color: var(--background);
 }
 
 /* --== Style boost server plus and minus buttons ==-- */
-.theme-dark .iconWrapper-3LVgIo {
+.theme-dark .iconWrapper-2_MXbk {
   background-color: var(--background);
 }
 
 /* --== Style custom emoji upload page ==-- */
-.theme-dark .card-FDVird:before, .emojiRow-zIc7ZX:focus-within .emojiRemove-1k6MlJ, .emojiRow-zIc7ZX:hover .emojiRemove-1k6MlJ,
+.theme-dark .card-2ART2V:before, .emojiRow-zIc7ZX:focus-within .emojiRemove-1k6MlJ, .emojiRow-zIc7ZX:hover .emojiRemove-1k6MlJ,
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
   background-color: var(--background);
 }
 
 /* --== Style datepicker I suppose? Why is this stuff so convoluted?! ==-- */
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker,
-.theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw,
-.theme-dark .datePicker--XZbmJ,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__current-month,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
-.datePicker--XZbmJ .datePickerHint-3Q1Udw .hint-165cR4 {
+.theme-dark .calendarPicker-sDhzdi .react-datepicker,
+.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8,
+.theme-dark .datePicker-70cO23,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover,
+.datePicker-70cO23 .datePickerHint-17MnA8 .hint-3D5yHh {
   background-color: var(--background);
 }
 
 /* --== Style upload modal ==-- */
-.uploadModal-2ifh8j .inner-3nWsbo, .theme-dark .uploadModal-2ifh8j, .uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC {
+.uploadModal-2ie9O_ .inner-rBP-MS, .theme-dark .uploadModal-2ie9O_, .uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ {
   background-color: var(--background);
 }
 
 /* --== Style search panel ==-- */
-.theme-dark .focused-2bY0OD {
+.theme-dark .focused-2FU0YH {
   background-color: var(--background);
 }
 
 /* --== Style "Connected apps" info ==-- */
-.formNotice-2_hHWR {
+.formNotice-2nS8ey {
   background-color: var(--background);
 }
 
@@ -425,15 +425,15 @@ body *, .userPopout-3XzG_A * {
   color: var(--background) !important;
 }
 
-.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+.input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
   border: none;
 }
 
-.theme-dark .checkBoxLabel-4PWfpk, .theme-dark .footerText-2a7NxZ, .theme-dark .subText-bCySlS {
+.theme-dark .checkBoxLabel-16BK2g, .theme-dark .footerText-2QLGHU, .theme-dark .subText-1CcYgq {
   color: var(--highlight);
 }
 
 /* --== Style custom status ==-- */
-.theme-dark .footer-2gL1pp {
+.theme-dark .footer-31IekZ {
   background-color: var(--background);
 }
