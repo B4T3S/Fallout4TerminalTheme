@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Fallout Terminal Version 1.3.6";
+  content: "Fallout Terminal Version 1.3.7";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -99,7 +99,8 @@ body *, .userPopout-3XzG_A * {
 /* --== Okay maybe not everything... ==-- */
 .target-1eRTCg, .centerTarget-S6BLFQ,
 .spoilerText-27bIiA.hidden-3B-Rum .inlineContent-2YnoDy .wrapper-1ZcZW-,
-.layer-1Ixpg3, .cannonWrapper-3dB5_m, .cannon-3uTo6m {
+.layer-1Ixpg3, .cannonWrapper-3dB5_m, .cannon-3uTo6m,
+.cannonWrapper-2iHppQ, .cannon-c47sK_ {
   pointer-events: none !important;
 }
 
