@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Fallout Terminal Version 1.3.7";
+  content: "Fallout Terminal Version 1.3.8";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -108,11 +108,15 @@ body *, .userPopout-3XzG_A * {
   pointer-events: auto !important;
 }
 
+.hidden-tnoHf9 {
+  display: none;
+}
+
+/* Add custom title! */
 .wordmarkWindows-2dq6rw svg {
   width: 0px;
 }
 
-/* Add custom title! */
 .wordmarkWindows-2dq6rw::after {
   content: '';
   display: inline-block;
@@ -188,6 +192,11 @@ body *, .userPopout-3XzG_A * {
 .unreadPillCapStroke-1nE1Q8 {
   color: var(--highlight);
   fill: var(--highlight);
+}
+
+.bar-2eAyLE {
+  background-color: var(--highlight);
+  color: var(--background);
 }
 
 /* --== Re-color blue/gray button(s) ==-- */
