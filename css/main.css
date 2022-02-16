@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-1sUqUG:last-child::after {
-  content: "Fallout Terminal Version 1.3.9";
+  content: "Fallout Terminal Version 1.3.10";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -68,7 +68,7 @@ html, body {
 /* --== Add CRT effect ==-- */
 html,body::before, .root-2zfUH6::before,
 .standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
-.inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup-1BPR25::before,
+.inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup-cfY57t::before,
 .theme-dark .root-g14mjS::after, .container-ZMc96U.themed-Hp1KC_::after,
 .drawerSizingWrapper-1txdWG::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
 .quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after,
@@ -163,6 +163,11 @@ body *, .userPopout-3XzG_A * {
 
 .newMessagesBar-1hF-9G * {
   color: var(--background);
+}
+
+/* --== Fix the "Delete Message?" popout ==-- */
+.message-G6O-Wv {
+  background-color: var(--background) !important;
 }
 
 /* --== Style the unread message bar ==-- */
@@ -334,15 +339,15 @@ body *, .userPopout-3XzG_A * {
   font-family: 'Share Tech Mono', monospace;
 }
 
-.resultsGroup-1BPR25 {
+.resultsGroup-cfY57t {
   background-color: var(--background);
 }
 
-.resultsGroup-1BPR25 * {
+.resultsGroup-cfY57t * {
   color: var(--highlight) !important;
 }
 
-.option-2KkUJO:after {
+.option-ayUoaq:after {
   display: none;
 }
 
