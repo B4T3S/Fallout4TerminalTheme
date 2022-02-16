@@ -52,8 +52,8 @@
 }
 
 /* VERSION INFO */
-.info-1sUqUG:last-child::after {
-  content: "Fallout Terminal Version 1.3.10";
+.info-3pQQBb:last-child::after {
+  content: "Fallout Terminal Version 1.3.11";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
