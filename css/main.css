@@ -53,7 +53,7 @@
 
 /* VERSION INFO */
 .info-3pQQBb:last-child::after {
-  content: "Fallout Terminal Version 1.3.11";
+  content: "Fallout Terminal Version 1.3.12";
   font-size: 12px;
   line-height: 16px;
   color: var(--highlight);
@@ -249,7 +249,7 @@ body *, .userPopout-3XzG_A * {
 }
 
 /* --== Style codeblocks and Markdown notation in Chat inputbox ==-- */
-.codeBlockSyntax-2MZ-Qy, .syntaxAfter-OxiKEl, .syntaxBefore-3pDAmR {
+.codeBlockSyntax-2MZ-Qy, .syntaxAfter-2_BrZf, .syntaxBefore-3epS3C {
   color: var(--highlight);
 }
 
@@ -482,4 +482,9 @@ body *, .userPopout-3XzG_A * {
 /* --== Style custom status ==-- */
 .theme-dark .footer-31IekZ {
   background-color: var(--background);
+}
+
+/* --== Hotfix for the channel hashtags ==-- */
+.icon-2W8DHg {
+  color: var(--highlight) !important;
 }
