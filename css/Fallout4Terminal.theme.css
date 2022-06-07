@@ -8,12 +8,16 @@
  * @patreon https://patreon.com/bates
  * @description A theme inspired by Fallout 4's terminals!
  * @authorId 137259132305539072
+ * @invite 6qd3SkP6Ch
 */
 
 @import url('https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/main.css');
+/* ^ THIS IS THE MAIN IMPORT. DO NOT TOUCH THIS OR THE THEME WILL BREAK. ^ */
+
+/* @import url('https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/disableCRT.css'); */
 
 :root {
-  --background: #000700; /*default: #000700*/
-  --text-color: #4AEF98; /*default: #4AEF98*/
-  --highlight: var(--text-color); /*default: var(--text-color)*/
+  --background: #000700; /* default: #000700 */
+  --text-color: #4AEF98; /* default: #4AEF98 */
+  --highlight:   var(--text-color); /* default: var(--text-color) */
 }
