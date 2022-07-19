@@ -81,7 +81,7 @@
   --text-normal: var(--text-color);
   --text-muted: var(--text-mute);
   --header-primary: var(--hprimary);
-  --header-secondary: var(--hse);
+  --header-secondary: var(--hsecondary);
   --channels-default:var(--chnl-list);
   --interactive-normal: var(--btns);
   --channeltextarea-background: var(--textbox-area);
