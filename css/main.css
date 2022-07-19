@@ -70,7 +70,7 @@
   --header-secondary: var(--hse);
   --channels-default:var(--chnl-list);
   --interactive-normal: var(--btns);
-  --channeltextarea-background: var(--text-inarea);
+  --channeltextarea-background: var(--textbox-area);
   --textbox-markdown-syntax: var(--background);
 }
 
