@@ -3,13 +3,13 @@
   <a href="https://www.paypal.com/paypalme/floriancegledi" target="_blank"><img src="https://img.shields.io/badge/PayPal-Support%20me%3F-blue"></img></a>
   <a href="https://www.patreon.com/bates" target="_blank"><img src="https://img.shields.io/badge/Patreon-Support%20me%3F-f96854"></img></a>
 </div>
-<h1 align="center">Fallout 4 Terminal Theme</h1>
+<h1 align="center">SCCR Fallout 4 Terminal Theme</h1>
 <img src="https://commandcrafterhd.github.io/Fallout4TerminalTheme/img/FalloutTerminal.png">
 
 <h2>About</h2>
 
-This is my second discord theme!
-Its goal is to mimic the look and feel of the VaultTec(r) terminals from Fallout 4!
+SCCR is a Slight Color Customization Remix of the Fallout 4 Terminal theme for BetterDiscord.
+Original theme link: https://github.com/CommandCrafterHD/Fallout4TerminalTheme
 
 <h2>Installation</h2>
 
@@ -21,6 +21,8 @@ Installing betterdiscord themes is really easy!
 - Click the checkbox in the top-right corner of the theme in discord to enable it
 
 <h2>Customization</h2>
+
+SCCR Lets you customize the colors of this theme very easily.
 
 You can easily customize this theme by editing the .theme.css file! Just change the variables to whatever you want!
 If you need help finding the right value(s), head on over to [the theme's website](https://commandcrafterhd.github.io/Fallout4TerminalTheme/) which has a handy color-picker!
