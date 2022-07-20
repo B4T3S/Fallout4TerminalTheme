@@ -4,11 +4,12 @@
   <a href="https://www.patreon.com/bates" target="_blank"><img src="https://img.shields.io/badge/Patreon-Support%20me%3F-f96854"></img></a>
 </div>
 <h1 align="center">SCCR Fallout 4 Terminal Theme</h1>
-<img src="https://commandcrafterhd.github.io/Fallout4TerminalTheme/img/FalloutTerminal.png">
+<img src="https://raw.githubusercontent.com/PepeBigotes/SCCRFallout4TerminalTheme/main/img/SCCRFallout4Terminal.png">
 
 <h2>About</h2>
 
 SCCR is a Slight Color Customization Remix of the Fallout 4 Terminal theme for BetterDiscord.
+This features buttons, scrollbar, text , background, and more customization options!
 Original theme link: https://github.com/CommandCrafterHD/Fallout4TerminalTheme
 
 <h2>Installation</h2>
