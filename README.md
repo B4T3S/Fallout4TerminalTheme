@@ -8,9 +8,9 @@
 
 <h2>About</h2>
 
-SCCR is a Slight Color Customization Remix of the Fallout 4 Terminal theme for BetterDiscord.
-This features buttons, scrollbar, text , background, and more customization options!
-Original theme link: https://github.com/CommandCrafterHD/Fallout4TerminalTheme
+- SCCR is a Slight Color Customization Remix of the Fallout 4 Terminal theme for BetterDiscord.
+- This features buttons, scrollbar, text , background, channel list and more color customization options!
+- Original theme link: https://github.com/CommandCrafterHD/Fallout4TerminalTheme
 
 <h2>Installation</h2>
 
