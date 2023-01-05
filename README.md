@@ -1,4 +1,4 @@
-<h1 align="center">Fallout 4 Terminal Theme</h1>
+<h1 align="center">Fallout 4 Terminal Theme Color</h1>
 <h3 align="center">IM NOT THE ORIGINAL AUTOR OF THE THEME, THIS IS A FORK.</h3>
 <img src="">
 
