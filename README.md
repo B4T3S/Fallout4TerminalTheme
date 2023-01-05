@@ -10,7 +10,7 @@ This is a fork of the "Fallout 4 Terminal" theme for "betterdiscord" that enhanc
 
 Installing betterdiscord themes is really easy!
 - Go into discord's settings
-- Go to "Themes"
+- Go to "Themes" (if this option does not exist, reinstall/repair betterdiscord try again)
 - Click on "Open theme folder"
 - Move the .theme.css file you downloaded into the folder you just opened
 - Click the checkbox in the top-right corner of the theme in discord to enable it
