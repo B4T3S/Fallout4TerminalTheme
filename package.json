@@ -1,0 +1,24 @@
+{
+  "name": "fallout4-terminal-theme",
+  "version": "2.0.0",
+  "description": "Fallout 4 Terminal theme for BetterDiscord.",
+  "main": "",
+  "scripts": {
+    "build": "sass --style=compressed --no-source-map src/main.scss:public/mainRewrite.css src/crtEffect.scss:public/css/crtEffect.css",
+    "dev": "watch \"sass --no-source-map src/dev.scss:%AppData%/BetterDiscord/themes/FalloutTerminalDEV.theme.css\" src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommandCrafterHD/Fallout4TerminalTheme.git"
+  },
+  "author": "Bates#7075",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CommandCrafterHD/Fallout4TerminalTheme/issues"
+  },
+  "homepage": "https://github.com/CommandCrafterHD/Fallout4TerminalTheme#readme",
+  "dependencies": {
+    "sass": "^1.58.3",
+    "watch": "^1.0.2"
+  }
+}

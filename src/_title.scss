@@ -1,0 +1,14 @@
+.wordmarkWindows-2dq6rw svg {
+    width: 0px;
+}
+
+.wordmarkWindows-2dq6rw::after {
+    content: '';
+    display: inline-block;
+    -webkit-mask-image: var(--title-image);
+    -webkit-mask-repeat: var(--title-image-repeat);
+    -webkit-mask-size: var(--title-image-size);
+    background-color: var(--title-image-color);
+    width: var(--title-image-width) !important;
+    height: var(--title-image-height) !important;
+}
