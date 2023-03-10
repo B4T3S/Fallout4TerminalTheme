@@ -7,6 +7,12 @@ body {
     backdrop-filter: blur(var(--background-blur)) brightness(var(--background-brightness));
 }
 
+/* --== Change font ==-- */
+html,
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
+
 /* --== Make everything (which needs to be) transparent ==-- */
 // The main App background
 .appMount-2yBXZl,
@@ -126,6 +132,7 @@ body {
 /* --== Style chat  ==-- */
 .channelTextArea-1FufC0 {
     border: 1px solid var(--highlight);
+    background-color: var(--background) !important;
 }
 
 /* --== Style profile ==-- */
