@@ -2,7 +2,7 @@
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url('https://commandcrafterhd.github.io/DiscordDarkNeon/css/usertags.css');
 @import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
- 
+
 :root, .theme-light {
   --rgb-highlight: 4, 217, 255;
   --highlight: var(--text-color);
