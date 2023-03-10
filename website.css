@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  --highlight: var(--text-color);
+  --text-color: #4AEF98;
+  --background: #000900;
+}
+
+html::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+/* --== Make sure everything's still clickable ==-- */
+body * {
+  font-family: 'Share Tech Mono', monospace;
+  pointer-events: auto;
+}
+
+.title {
+  background-color: var(--background);
+  color: var(--highlight);
+  padding-top: 8px;
+}
+
+body {
+  background-color: var(--background);
+  height: 95vh;
+  color: gray;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background-color: var(--background)
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background-color: var(--highlight)
+}
+
+.neon {
+  color: var(--highlight);
+}
+
+.dark {
+  color: var(--background);
+  background-color: var(--highlight);
+  border-radius: 5px;
+  padding: 3px;
+  padding-top: 1px;
+}
+
+.card {
+  background-color: var(--background) !important;
+  border-color: var(--highlight) !important;
+}
+
+.card h5 {
+  color: var(--highlight);
+}
+
+.list-group-item {
+  background-color: var(--background) !important;
+  color: var(--background);
+  padding: 5px;
+  color: inherit;
+}
+
+.example-online p {
+  background-color: var(--online-color) !important;
+  color: var(--background);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.example-idle p {
+  background-color: var(--afk-color) !important;
+  color: var(--background);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.example-dnd p {
+  background-color: var(--dnd-color) !important;
+  color: var(--background);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.example-streaming p {
+  background-color: var(--streaming-color) !important;
+  color: var(--background);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 25px;
+  outline: none;
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+  border-radius: 25px;
+  margin-bottom: 2vh;
+  opacity: 0.7;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#customR::-webkit-slider-thumb{
+  background: rgb(255, 0, 0);
+}
+
+#customR::-moz-range-thumb{
+  background: rgb(255, 0, 0);
+}
+
+#customG::-webkit-slider-thumb{
+  background: rgb(0, 255, 0);
+}
+
+#customG::-moz-range-thumb{
+  background: rgb(0, 255, 0);
+}
+
+#customB::-webkit-slider-thumb{
+  background: rgb(0, 0, 255);
+}
+
+#customB::-moz-range-thumb{
+  background: rgb(0, 0, 255);
+}
+
+.button {
+  background-color: var(--background);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: .3s;
+  text-decoration: none;
+  line-break: none;
+}
+
+.button:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}

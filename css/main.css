@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url('https://commandcrafterhd.github.io/DiscordDarkNeon/css/usertags.css');
+@import url("https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css");
+ 
+:root, .theme-light {
+  --rgb-highlight: 4, 217, 255;
+  --highlight: var(--text-color);
+  --background: #000900;
+  --text-color: #4AEF98;
+  --close-button: var(--dnd-color) !important;
+  --online-color: #39ff14;
+  --afk-color: #FFFF33;
+  --dnd-color: #FF0000;
+  --streaming-color: #bc13fe;
+  --rs-online-color: var(--online-color);
+  --rs-idle-color: var(--afk-color);
+  --rs-dnd-color: var(--dnd-color);
+  --rs-offline-color: gray;
+  --rs-invisible-color: gray;
+  --rs-streaming-color: var(--stream-color);
+  --interactive-hover: var(--highlight);
+  --interactive-active: var(--highlight);
+  --text-link: var(--highlight);
+  --bdfdb-blurple: var(--highlight);
+  --logo-primary: var(--highlight);
+  --focus-primary: var(--highlight);
+  --radio-group-dot-foreground: var(--highlight);
+  --scrollbar-thin-thumb: var(--highlight);
+  --scrollbar-auto-thumb: var(--highlight);
+  --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
+  --scrollbar-thin-track: var(--background);
+  --scrollbar-auto-track: var(--background);
+  --scrollbar-auto-scrollbar-color-track: var(--background);
+  --activity-card-background: var(--background);
+  --background-primary: var(--background);
+  --background-mobile-primary: var(--background);
+  --background-secondary: var(--background);
+  --background-mobile-secondary: var(--background);
+  --background-secondary-alt: var(--background);
+  --background-tertiary: var(--background);
+  --background-accent: var(--background);
+  --background-floating: var(--background);
+  --text-normal: var(--text-color);
+  --text-muted: var(--text-color);
+  --header-primary: var(--text-color);
+  --header-secondary: var(--text-color);
+  --channels-default:var(--text-color);
+  --interactive-normal: var(--text-color);
+  --channeltextarea-background: var(--background);
+  --textbox-markdown-syntax: var(--background);
+}
+
+/* VERSION INFO */
+.info-3pQQBb:last-child::after {
+  content: "Fallout Terminal Version 1.3.15";
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--highlight);
+}
+/* VERSION INFO */
+
+/* --== Change font ==-- */
+html, body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+/* --== Add CRT effect ==-- */
+html,body::before, .root-2zfUH6::before,
+.standardSidebarView-E9Pc3j::before, .userPopout-2j1gM4::before,
+.inner-1ilYF7::before, .container-1Lk8p7::before, .resultsGroup-cfY57t::before,
+.theme-dark .root-g14mjS::after, .container-ZMc96U.themed-Hp1KC_::after,
+.drawerSizingWrapper-1txdWG::after, .layer-2aCOJ3::after, .container-ZMc96U::after,
+.quickswitcher-pKcM9U::after, .wrapper-3ByaVZ::after, .form-2oOOG9::after,
+.autocompleteInner-y1mjDl::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+/* --== Make sure the BetterDiscord version is readable ==-- */
+.colorMuted-20987_ {
+  color: var(--text-color);
+}
+
+/* --== Make sure everything's still clickable ==-- */
+body *, .userPopout-3XzG_A * {
+  pointer-events: auto;
+}
+
+/* --== Okay maybe not everything... ==-- */
+.target-1eRTCg, .centerTarget-S6BLFQ,
+.spoilerText-27bIiA.hidden-3B-Rum .inlineContent-2YnoDy .wrapper-1ZcZW-,
+.layer-1Ixpg3, .cannonWrapper-3dB5_m, .cannon-3uTo6m,
+.cannonWrapper-2iHppQ, .cannon-c47sK_ {
+  pointer-events: none !important;
+}
+
+.autoPointerEvents-2oNo2f {
+  pointer-events: auto !important;
+}
+
+.hidden-tnoHf9 {
+  display: none;
+}
+
+/* Add custom title! */
+.wordmarkWindows-2dq6rw svg {
+  width: 0px;
+}
+
+.wordmarkWindows-2dq6rw::after {
+  content: '';
+  display: inline-block;
+  -webkit-mask-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  background-color: var(--highlight);
+  width: 240px !important;
+  height: 14px !important;
+}
+
+/* --== Styling the weird "Connect PlayStation Network" popout ==-- */
+.container-xB0xPf {
+  background-color: var(--background);
+}
+
+.pointer-1j6vDv {
+  display: none;
+}
+
+.layerContainer-2v_Sit > .layer-2aCOJ3::after {
+  display: none;
+}
+
+/* (This means no CRT effect on that popout for now, as it is weirdly shaped and screws with the effect) */
+
+/* --== Styling custom User Popouts ==-- */
+
+.popoutBanner-3cqRD9 {
+  height: 120px;
+}
+
+.userPopout-2j1gM4 {
+	--USRBG-banner-height: 120px;
+}
+
+.avatarWrapperNormal-ahVUaC {
+  top: 76px;
+}
+
+.newMessagesBar-1hF-9G {
+  background-color: var(--highlight);
+}
+
+.newMessagesBar-1hF-9G * {
+  color: var(--background);
+}
+
+/* --== Fix the "Delete Message?" popout ==-- */
+.message-G6O-Wv {
+  background-color: var(--background) !important;
+}
+
+/* --== Style the unread message bar ==-- */
+.isUnread-3Lojb- {
+  border-color: var(--highlight);
+}
+
+.isUnread-3Lojb- .content-3spvdd {
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+}
+
+.wrapper-NhbLHG:hover > .unread-36eUEm {
+  background-color: var(--highlight);
+}
+
+.unreadPill-3nEWYM {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.guildSeparator-33mFX6 {
+  background-color: var(--highlight);
+  border-radius: 2px;
+}
+
+.unreadPillCapStroke-1nE1Q8 {
+  color: var(--highlight);
+  fill: var(--highlight);
+}
+
+.bar-2eAyLE {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+/* --== Re-color blue/gray button(s) ==-- */
+.lookFilled-yCfaCM.colorBrand-I6CyqQ,
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo,
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B {
+  background-color: var(--background);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+  transition-duration: .3s;
+}
+
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
+.theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover,
+.theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo {
+  color: var(--highlight);
+}
+
+.theme-dark .lookLink-15mFoz.colorPrimary-2AuQVo:hover > div {
+  background-image: linear-gradient(0deg,transparent,transparent 1px,var(--highlight) 0,var(--highlight) 2px,transparent 0) !important;
+}
+
+/* --== Style home button ==-- */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+  background-color: var(--highlight);
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub svg path, .wrapper-3kah-n:hover .childWrapper-1j_1ub svg path {
+  fill: var(--background);
+}
+
+.homeIcon-FuNwkv path {
+  fill: var(--highlight);
+}
+
+/* --== Style GIF Picker text's ==-- */
+
+.theme-dark .categoryText-2i9GtE, .theme-light .categoryText-2i9GtE  *{
+  color: var(--highlight);
+}
+
+/* --== Style codeblocks and Markdown notation in Chat inputbox ==-- */
+.codeBlockSyntax-2MZ-Qy, .syntaxAfter-2_BrZf, .syntaxBefore-3epS3C {
+  color: var(--highlight);
+}
+
+/* --== Style "Create Server" popout ==-- */
+.markup-eYLPri code {
+  border: 1px solid var(--highlight);
+}
+
+.colorHeaderPrimary-jN_yGr {
+  color: var(--highlight);
+}
+
+.root-g14mjS, .theme-light .footer-31IekZ {
+  background-color: var(--background) !important;
+}
+
+/* --== Style server explorer ==-- */
+.scroller-3j5xK2 {
+  background-color: var(--background);
+}
+
+.notice-12Koq- {
+  background-color: var(--background);
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style Server Boost/Friends page ==-- */
+.closeWrapper-9ScmSq, .theme-dark .perksModal-CLcR1c, .peopleList-2VBrVI, .peopleColumn-1wMU14 {
+  background-color: var(--background);
+}
+
+.container-ZMc96U {
+  background-color: var(--background) !important;
+}
+
+/* --== Style the emoji-autocomplete window ==-- */
+.autocompleteInner-y1mjDl {
+  background-color: var(--background);
+}
+
+.selected-3H3-RC {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+}
+
+/* --== Style trust this link popout ==-- */
+.form-2oOOG9 > div {
+  background-color: var(--background) !important;
+}
+
+/* --== Style the user popout ==-- */
+.userPopout-3XzG_A {
+  margin-right: 1vw;
+  border: 1px solid var(--highlight);
+}
+
+.headerPlaying-j0WQBV, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+.headerTop-3C2Zn0 {
+  background-color: var(--background);
+}
+
+.input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
+  border: 1px solid var(--highlight);
+}
+
+.header-QKLPzZ {
+  background-color: var(--background);
+}
+
+.headerFill-adLl4x {
+  background-color: var(--background);
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79, .lookInverted-2mDUMi.colorBrand-I6CyqQ {
+  background-color: var(--background);
+  color: var(--highlight);
+  transition-duration: .3s;
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover, .lookInverted-2mDUMi.colorBrand-I6CyqQ:hover {
+  background-color: var(--highlight);
+  color: var(--background);
+}
+
+/* --== Style search popout ==-- */
+.input-3r5zZY {
+  background-color: var(--background);
+}
+
+.inner-1ilYF7 * {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.resultsGroup-cfY57t {
+  background-color: var(--background);
+}
+
+.resultsGroup-cfY57t * {
+  color: var(--highlight) !important;
+}
+
+.option-ayUoaq:after {
+  display: none;
+}
+
+.queryContainer-ZunrLZ {
+  background-color: var(--background) !important;
+  color: var(--highlight) !important;
+}
+
+/* --== Style "Reactions" popout ==-- */
+.theme-dark .container-KM8BU6, .theme-dark .reactors-1VXca7, .theme-dark .scroller-2GkvCq {
+  background-color: var(--background);
+}
+
+/* --== Style in-server stream previews ==-- */
+.body-2WIpo7 {
+  background-color: var(--background);
+}
+
+.button-TGAkj4 {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight) !important;
+  color: var(--highlight) !important;
+}
+
+.button-TGAkj4:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
+}
+
+/* --== Style payment page ==-- */
+.theme-dark .paymentPane-ut5qKZ div, .theme-dark .codeRedemptionRedirect-3SBiCp {
+  background-color: var(--background);
+}
+
+/* --== Style audio/video settings ==-- */
+.css-1ye7vu0, .horizontal-112GEH>.flex-2S1XBF:last-child, .horizontal-112GEH>.flexChild-3PzYmX:last-child {
+  background-color: var(--background);
+}
+
+/* --== Style "activity" settings ==-- */
+.theme-dark .notDetected-2HEmAp, .theme-light .notDetected-2HEmAp,
+.theme-dark .addGamePopout-3yePJc {
+  background-color: var(--background);
+}
+
+/* --== Style color picker ==-- */
+.theme-dark .colorPickerCustom-1swUKF {
+  background-color: var(--background);
+}
+
+/* --== Style phonenumber input ==-- */
+.theme-dark .elevationBorderLow-3_3rXL {
+  background-color: var(--background);
+}
+
+/* --== Style create DM Group ==-- */
+.nameTag-H6kSJ0 {
+  color: var(--highlight);
+}
+
+/* --== Style Keyboard shortcuts modal ==-- */
+.theme-dark .keyboardShortcutsModal-2CRmCm {
+  background-color: var(--background);
+}
+
+/* --== Style boost server plus and minus buttons ==-- */
+.theme-dark .iconWrapper-2_MXbk {
+  background-color: var(--background);
+}
+
+/* --== Style custom emoji upload page ==-- */
+.theme-dark .card-2ART2V:before, .emojiRow-zIc7ZX:focus-within .emojiRemove-1k6MlJ, .emojiRow-zIc7ZX:hover .emojiRemove-1k6MlJ,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+  background-color: var(--background);
+}
+
+/* --== Style datepicker I suppose? Why is this stuff so convoluted?! ==-- */
+.theme-dark .calendarPicker-sDhzdi .react-datepicker,
+.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8,
+.theme-dark .datePicker-70cO23,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__header,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day,
+.theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover,
+.datePicker-70cO23 .datePickerHint-17MnA8 .hint-3D5yHh {
+  background-color: var(--background);
+}
+
+/* --== Style upload modal ==-- */
+.uploadModal-2ie9O_ .inner-rBP-MS, .theme-dark .uploadModal-2ie9O_, .uploadModal-2ie9O_ .footer-VCsJQY.hasSpoilers-33hwf_ {
+  background-color: var(--background);
+}
+
+/* --== Style search panel ==-- */
+.theme-dark .focused-2FU0YH {
+  background-color: var(--background);
+}
+
+/* --== Style "Connected apps" info ==-- */
+.formNotice-2nS8ey {
+  background-color: var(--background);
+}
+
+/* --== Style Invite friends to this server modal ==-- */
+.modal-atz_3z > div {
+  background-color: var(--background) !important;
+}
+
+.colorStandard-21JIj7 {
+  color: var(--highlight) !important;
+}
+
+.copyButton-2k4drX, .inviteRowButton-3hcOhY {
+  background-color: var(--background) !important;
+  border: 1px solid var(--highlight);
+  color: var(--highlight) !important;
+}
+
+.copyButton-2k4drX:hover, .inviteRowButton-3hcOhY:hover {
+  background-color: var(--highlight) !important;
+  color: var(--background) !important;
+}
+
+.input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
+  border: none;
+}
+
+.theme-dark .checkBoxLabel-16BK2g, .theme-dark .footerText-2QLGHU, .theme-dark .subText-1CcYgq {
+  color: var(--highlight);
+}
+
+/* --== Style custom status ==-- */
+.theme-dark .footer-31IekZ {
+  background-color: var(--background);
+}
+
+/* --== Hotfix for the channel hashtags ==-- */
+.icon-2W8DHg {
+  color: var(--highlight) !important;
+}
+
+/* --== Hotfix for discords stupid "party mode" ==-- */
+.layerContainer-2v_Sit > *, .enableAnimation-1SgROG, .enableAnimation-1SgROG > * {
+  pointer-events: none;
+}
