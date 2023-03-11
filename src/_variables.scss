@@ -170,7 +170,7 @@
 
     @while $counter < 100 {
         --brand-experiment-#{$counter}a: var(--highlight);
-        $counter: $counter +5;
+        $counter: $counter + 5;
     }
 
 }
