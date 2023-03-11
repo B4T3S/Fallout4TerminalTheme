@@ -145,7 +145,7 @@
     --interactive-muted: rgba(var(--rgb-highlight), 20%);
     --interactive-normal: rgba(var(--rgb-highlight), 50%);
     --interactive-hover: rgba(var(--rgb-highlight), 100%);
-    --interactive-active: var(--highlight);
+    --interactive-active: rgb(var(--rgb-highlight));
 
     /* --== I DON'T EVEN KNOW, WHY DO YOU DO THIS DISCORD ==-- */
     --status-danger: var(--dnd-color);
