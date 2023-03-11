@@ -156,3 +156,28 @@ body {
 .userPanelInnerThemed-2xZFjl {
     background-color: var(--background);
 }
+
+/* --== Style channels ==-- */
+.containerDefault-YUSmu3 {
+    .name-28HaxV {
+        color: var(--channel-icon);
+    }
+
+    .modeMuted-2T4MDZ {
+        .name-28HaxV {
+            color: var(--interactive-muted);
+        }
+    }
+
+    .modeSelected-3DmyhH, .modeUnread-3Cxepe {
+        .icon-2W8DHg {
+            color: var(--text);
+        }
+    }
+
+    .modeSelected-3DmyhH {
+        .name-28HaxV {
+            color: var(--text);
+        }
+    }
+}
