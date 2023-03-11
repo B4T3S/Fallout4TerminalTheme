@@ -188,3 +188,8 @@ body {
         color: var(--background) !important;
     }
 }
+
+/* --== Fix illegible bot tag ==-- */
+.botText-1fD6Qk, .botTagVerified-2KCPMa {
+    color: var(--background);
+}
