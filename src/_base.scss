@@ -197,3 +197,13 @@ body {
 .botText-1fD6Qk, .botTagVerified-2KCPMa {
     color: var(--background);
 }
+
+/* --== Fix super bright replying highlights ==-- */
+.replying-eZ7p5z:hover {
+    background-color: rgba(var(--rgb-highlight), 60%) !important;
+}
+
+/* --== Change mentioned color bar ==-- */
+.mentioned-Tre-dv::before {
+    background-color: var(--highlight);
+}
