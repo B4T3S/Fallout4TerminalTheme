@@ -15,99 +15,99 @@ body {
 
 /* --== Make everything (which needs to be) transparent ==-- */
 // The main App background
-.appMount-2yBXZl,
-.app-2CXKsg,
-.bg-1QIAus,
+.appMount_fae9dd,
+.app_de4237,
+.bg__12180,
 // The guild list
-.guilds-2JjMmN,
-.scroller-3X7KbA,
+.guilds__2b93a,
+.scroller__3d071,
 // The channel list
-.sidebar-1tnWFu,
-.container-1NXEtd,
+.sidebar_ded4b5,
+.container__590e2,
 // The mute/deafen/settings panel
-.panels-3wFtMD,
-.container-YkUktl,
+.panels__58331,
+.container_ca50b9,
 // The chat
-.chat-2ZfjoI,
-.chatContent-3KubbW,
+.chat__52833,
+.chatContent__5dca8,
 // The title bar
-.title-31SJ6t,
+.title_b7d661,
 // The search bar,
-.searchBar-jGtisZ,
+.searchBar_e0c60b,
 // The user list
-.container-2o3qEW,
-.members-3WRCEx,
-.content-1jQy2l,
-.container-1oeRFJ,
+.container_b2ce9c,
+.members__9f47b,
+.content__1a4fe,
+.container__4f20e,
 // The chat box
-.scrollableContainer-15eg7h,
-.channelTextArea-1VQBuV,
+.scrollableContainer__33e06,
+.channelTextArea__56a36,
 // The friends page
-.container-2cd8Mz,
-.section-3G9aLW,
-.nowPlayingColumn-1eCBCN,
-.container-1oAagU,
-.itemCard-3Etziu,
-.section-3G9aLW,
-.inset-SbsSFp,
-.container-ZMc96U,
-.privateChannels-oVe7HL,
-.scroller-WSmht3,
+.container__5c7e7,
+.section_efc22d,
+.nowPlayingColumn_f5023f,
+.container__0a6a9,
+.itemCard__1f162,
+.section_efc22d,
+.inset__0bfb3,
+.container__11d72,
+.privateChannels__93473,
+.scroller__4b984,
 // The settings page
-.layer-86YKbF,
-.standardSidebarView-E9Pc3j,
-.sidebarRegionScroller-FXiQOh,
-.contentRegion-3HkfJJ,
-.contentRegionScroller-2_GT_N,
+.layer__2efaa ,
+.standardSidebarView__1129a,
+.sidebarRegionScroller__1fa7e,
+.contentRegion__0bec1,
+.contentRegionScroller__86c79,
 // The Library page
-.container-3u6dG-,
-.stickyHeader-fX4ei6,
-.scroller-1TOeMq,
+.container__0eeef,
+.stickyHeader_aa58d0,
+.scroller__9c698,
 // The Explore servers page
-.pageWrapper-2PwDoS {
+.pageWrapper_fef757 {
     background: transparent !important;
 }
 
 /* --== Style the online/afk/dnd icons ==-- */
 
 /* --== THIS PART WAS YOINKED FROM _DAVID_! THANKS DAVID! ==-- */
-#app-mount .wrapper-3Un6-K rect[fill="#593695"],
-#app-mount .wrapper-3Un6-K rect[mask*=streaming] {
+#app-mount .wrapper_edb6e0 rect[fill="#593695"],
+#app-mount .wrapper_edb6e0 rect[mask*=streaming] {
     fill: var(--streaming-color)
 }
 
-#app-mount .wrapper-3Un6-K rect[fill="#43b581"],
-#app-mount .wrapper-3Un6-K rect[mask*=online] {
+#app-mount .wrapper_edb6e0 rect[fill="#43b581"],
+#app-mount .wrapper_edb6e0 rect[mask*=online] {
     fill: var(--online-color)
 }
 
-#app-mount .wrapper-3Un6-K rect[fill="#faa61a"],
-#app-mount .wrapper-3Un6-K rect[mask*=idle] {
+#app-mount .wrapper_edb6e0 rect[fill="#faa61a"],
+#app-mount .wrapper_edb6e0 rect[mask*=idle] {
     fill: var(--afk-color)
 }
 
-#app-mount .wrapper-3Un6-K rect[fill="#f04747"],
-#app-mount .wrapper-3Un6-K rect[mask*=dnd] {
+#app-mount .wrapper_edb6e0 rect[fill="#f04747"],
+#app-mount .wrapper_edb6e0 rect[mask*=dnd] {
     fill: var(--dnd-color)
 }
 
 /* --== Style the unread number-badges ==-- */
-.numberBadge-37OJ3S {
+.numberBadge__50328 {
     background-color: rgba(var(--rgb-highlight), 70%) !important;
     color: var(--background);
 }
 
 /* --== Style the unread message bar ==-- */
-.isUnread-3Lojb- {
+.isUnread__6f880 {
     border: 1px solid var(--highlight);
 }
 
-.content-3spvdd {
+.content_d67847 {
     color: var(--highlight) !important;
 }
 
-.wrapper-NhbLHG:hover {
-    .unread-36eUEm {
+.wrapper__7bcde:hover {
+    .unread__48cf4 {
         background-color: var(--highlight);
     }
 }
@@ -117,41 +117,41 @@ body {
     border-radius: 2px;
 }
 
-.unreadPillCapStroke-1nE1Q8 {
+.unreadPillCapStroke__12c0b {
     color: var(--highlight);
     fill: var(--highlight);
 }
 
-.unreadPill-3nEWYM {
+.unreadPill__715fc {
     background-color: var(--highlight);
     color: var(--background) !important;
 }
 
-.bar-2eAyLE {
+.bar_edc096 {
     background-color: var(--highlight);
     color: var(--background);
 }
 
 /* --== Style the autocomplete window! ==-- */
-.autocomplete-3NRXG8 {
+.autocomplete_df266d {
     background-color: var(--background) !important;
 }
 
 /* --== Style chat  ==-- */
-.channelTextArea-1deLlK {
+.channelTextArea__2e60f {
     border: 1px solid var(--highlight);
     background-color: var(--background) !important;
 }
 
 /* --== Style profile ==-- */
-.userProfileInnerThemedNonPremium-2AJg-H {
+.userProfileInnerThemedNonPremium__3d0a6 {
     background-color: var(--background);
 }
 
 /* --== Hide weird unused stuff ==-- */
-.theme-dark .children-3xh0VB:after,
-.form-3gdLxP::before,
-.option-ayUoaq:after {
+.theme-dark .children__32014:after,
+.form__13a2c::before,
+.option_b5597b:after {
     display: none;
 }
 
@@ -161,61 +161,61 @@ body {
 }
 
 /* --== Style channels ==-- */
-.containerDefault-YUSmu3 {
-    .name-28HaxV {
+.containerDefault__3187b {
+    .name__8d1ec {
         color: var(--channel-icon);
     }
 
-    .modeMuted-2T4MDZ {
-        .name-28HaxV {
+    .modeMuted__0aeea {
+        .name__8d1ec {
             color: var(--interactive-muted);
         }
     }
 
-    .modeSelected-3DmyhH, .modeUnread-3Cxepe {
-        .icon-2W8DHg {
+    .modeSelected__487d6, .modeUnread_f74c03 {
+        .icon_eff5d4 {
             color: var(--text);
         }
     }
 
-    .modeSelected-3DmyhH {
-        .name-28HaxV {
+    .modeSelected__487d6 {
+        .name__8d1ec {
             color: var(--text);
         }
 
-        .content-1gYQeQ {
+        .wrapper__7bcde {
             background-color: rgba(var(--rgb-highlight), 20%);
         }
     }
 }
 
 /* --== Fix invisible reaction count =-- */
-.reactionMe-1PwQAc {
-    .reactionCount-26U4As {
+.reactionMe_bf6909 {
+    .reactionCount__60448 {
         color: var(--background) !important;
     }
 }
 
 /* --== Fix illegible bot tag ==-- */
-.botText-1fD6Qk, .botTagVerified-2KCPMa {
+.botText__19848, .botTagVerified_a8fa0b {
     color: var(--background);
 }
 
 /* --== Fix super bright replying highlights ==-- */
-.replying-eZ7p5z:hover {
+.replying_d7b6ad:hover {
     background-color: rgba(var(--rgb-highlight), 60%) !important;
 }
 
 /* --== Fix super bright bot-replying highlights ==-- */
-.ephemeral-2nDdnn {
+.ephemeral_c26b64 {
     background-color: rgba(var(--rgb-highlight), 30%);
 }
 
-.ephemeral-2nDdnn:hover {
+.ephemeral_c26b64:hover {
     background-color: rgba(var(--rgb-highlight), 40%) !important;
 }
 
 /* --== Change mentioned color bar ==-- */
-.mentioned-Tre-dv::before {
+.mentioned__58017::before {
     background-color: var(--highlight);
 }
