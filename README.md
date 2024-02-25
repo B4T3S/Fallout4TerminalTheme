@@ -4,7 +4,7 @@
   <a href="https://www.patreon.com/bates" target="_blank"><img src="https://img.shields.io/badge/Patreon-Support%20me%3F-f96854"></img></a>
 </div>
 <h1 align="center">Fallout 4 Terminal Theme</h1>
-<img src="https://commandcrafterhd.github.io/Fallout4TerminalTheme/img/FalloutTerminal.png">
+<img src="https://B4T3S.github.io/Fallout4TerminalTheme/img/FalloutTerminal.png">
 
 <h2>About</h2>
 
@@ -23,7 +23,7 @@ Installing betterdiscord themes is really easy!
 <h2>Customization</h2>
 
 You can easily customize this theme by editing the .theme.css file! Just change the variables to whatever you want!
-If you need help finding the right value(s), head on over to [the theme's website](https://commandcrafterhd.github.io/Fallout4TerminalTheme/) which has a handy color-picker!
+If you need help finding the right value(s), head on over to [the theme's website](https://B4T3S.github.io/Fallout4TerminalTheme/) which has a handy color-picker!
 
 <h2>Need more help?</h2>
 
