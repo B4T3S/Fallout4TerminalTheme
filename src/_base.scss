@@ -1,197 +1,226 @@
 /* --== Set the background color/image ==-- */
 body {
-    background-color: var(--background);
-    background-image: var(--background-image);
-    background-position: var(--background-position);
-    background-size: var(--background-size);
-    backdrop-filter: blur(var(--background-blur)) brightness(var(--background-brightness));
+  background-color: var(--background);
+  background-image: var(--background-image);
+  background-position: var(--background-position);
+  background-size: var(--background-size);
+  backdrop-filter: blur(var(--background-blur))
+    brightness(var(--background-brightness));
 }
 
 /* --== Change font ==-- */
 html,
 body {
-    font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
 }
 
 /* --== Make everything (which needs to be) transparent ==-- */
 // The main App background
-.appMount-2yBXZl,
-.app-2CXKsg,
-.bg-1QIAus,
+.appMount_c99875,
+.app_de4237,
+.bg__12180,
 // The guild list
-.guilds-2JjMmN,
-.scroller-3X7KbA,
+.guilds__2b93a,
+.scroller_de945b,
 // The channel list
-.sidebar-1tnWFu,
-.container-1NXEtd,
+.sidebar_e031be,
+.container__7e23c,
 // The mute/deafen/settings panel
-.panels-3wFtMD,
-.container-YkUktl,
+.panels__58331,
+.container_debb33,
 // The chat
-.chat-2ZfjoI,
-.chatContent-3KubbW,
+.chat__52833,
+.chatContent_f087cb,
 // The title bar
-.title-31SJ6t,
+.title_d4ba1a,
 // The search bar,
-.searchBar-jGtisZ,
+.searchBar__5a20a,
 // The user list
-.container-2o3qEW,
-.members-3WRCEx,
-.content-1jQy2l,
-.container-1oeRFJ,
+.container_f79ab4,
+.members__573eb,
+.content__01e65,
+.container_a48b21,
 // The chat box
-.scrollableContainer-15eg7h,
-.channelTextArea-1VQBuV,
+.scrollableContainer_ff917f,
+.channelTextArea__648e5,
 // The friends page
-.container-2cd8Mz,
-.section-3G9aLW,
-.nowPlayingColumn-1eCBCN,
-.container-1oAagU,
-.itemCard-3Etziu,
-.section-3G9aLW,
-.inset-SbsSFp,
-.container-ZMc96U,
-.privateChannels-oVe7HL,
-.scroller-WSmht3,
+.container_bd15da,
+.section__253ec,
+.nowPlayingColumn_b025fe,
+.container__3673d,
+.itemCard_b64118,
+.section__253ec,
+.inset__61d5b,
+.container__26baa,
+.privateChannels__9b518,
+.scroller__89969,
 // The settings page
-.layer-86YKbF,
-.standardSidebarView-E9Pc3j,
-.sidebarRegionScroller-FXiQOh,
-.contentRegion-3HkfJJ,
-.contentRegionScroller-2_GT_N,
+.layer_f7d46a ,
+.standardSidebarView__12528,
+.sidebarRegionScroller__8113e,
+.contentRegion__08eba,
+.contentRegionScroller__9ae20,
 // The Library page
-.container-3u6dG-,
-.stickyHeader-fX4ei6,
-.scroller-1TOeMq,
+.container_a8317e,
+.stickyHeader_bba39c,
+.scroller_ddc925,
 // The Explore servers page
-.pageWrapper-2PwDoS,
+.pageWrapper_c182d3,
 // The Forum page 
-.container-3wLKDe {
+.container_b92032 {
     background: transparent !important;
 }
 
 /* --== Style the online/afk/dnd icons ==-- */
 
 /* --== THIS PART WAS YOINKED FROM _DAVID_! THANKS DAVID! ==-- */
-#app-mount .wrapper-1VLyxH rect[fill="#593695"],
-#app-mount .wrapper-1VLyxH rect[mask*=streaming] {
-    fill: var(--streaming-color)
+#app-mount .wrapper__3ed10 rect[fill="#593695"],
+#app-mount .wrapper__3ed10 rect[mask*="streaming"] {
+  fill: var(--streaming-color);
 }
 
-#app-mount .wrapper-1VLyxH rect[fill="#43b581"],
-#app-mount .wrapper-1VLyxH rect[mask*=online] {
-    fill: var(--online-color)
+#app-mount .wrapper__3ed10 rect[fill="#43b581"],
+#app-mount .wrapper__3ed10 rect[mask*="online"] {
+  fill: var(--online-color);
 }
 
-#app-mount .wrapper-1VLyxH rect[fill="#faa61a"],
-#app-mount .wrapper-1VLyxH rect[mask*=idle] {
-    fill: var(--afk-color)
+#app-mount .wrapper__3ed10 rect[fill="#faa61a"],
+#app-mount .wrapper__3ed10 rect[mask*="idle"] {
+  fill: var(--afk-color);
 }
 
-#app-mount .wrapper-1VLyxH rect[fill="#f04747"],
-#app-mount .wrapper-1VLyxH rect[mask*=dnd] {
-    fill: var(--dnd-color)
+#app-mount .wrapper__3ed10 rect[fill="#f04747"],
+#app-mount .wrapper__3ed10 rect[mask*="dnd"] {
+  fill: var(--dnd-color);
 }
 
 /* --== Style the unread number-badges ==-- */
-.numberBadge-37OJ3S {
-    background-color: rgba(var(--rgb-highlight), 70%) !important;
-    color: var(--background);
+.numberBadge__40d6f {
+  background-color: rgba(var(--rgb-highlight), 70%) !important;
+  color: var(--background);
 }
 
 /* --== Style the unread message bar ==-- */
-.isUnread-3Lojb- {
-    color: var(--highlight);
-    border: 1px solid var(--highlight);
+.isUnread_de09f5 {
+  border: 1px solid var(--highlight);
 }
 
-.wrapper-NhbLHG:hover {
-    .unread-36eUEm {
-        background-color: var(--highlight);
-    }
+.content__7191e {
+  color: var(--highlight) !important;
+}
+
+.wrapper__612a5:hover {
+  .unread__48cf4 {
+    background-color: var(--highlight);
+  }
 }
 
 .guildSeparator-33mFX6 {
-    background-color: var(--highlight);
-    border-radius: 2px;
+  background-color: var(--highlight);
+  border-radius: 2px;
 }
 
-.unreadPillCapStroke-1nE1Q8 {
-    color: var(--highlight);
-    fill: var(--highlight);
+.unreadPillCapStroke__89d64 {
+  color: var(--highlight);
+  fill: var(--highlight);
 }
 
-.unreadPill-3nEWYM {
-    background-color: var(--highlight);
-    color: var(--background) !important;
+.unreadPill__1b4fa {
+  background-color: var(--highlight);
+  color: var(--background) !important;
 }
 
-.bar-2eAyLE {
-    background-color: var(--highlight);
-    color: var(--background);
+.bar_edc096 {
+  background-color: var(--highlight);
+  color: var(--background);
 }
 
 /* --== Style the autocomplete window! ==-- */
-.autocomplete-3NRXG8 {
-    background-color: var(--background) !important;
+.autocomplete__743a5 {
+  background-color: var(--background) !important;
 }
 
 /* --== Style chat  ==-- */
-.channelTextArea-1FufC0 {
-    border: 1px solid var(--highlight);
-    background-color: var(--background) !important;
+.channelTextArea_c2094b {
+  border: 1px solid var(--highlight);
+  background-color: var(--background) !important;
 }
 
 /* --== Style profile ==-- */
-.userProfileInnerThemedNonPremium-1gT-zY {
-    background-color: var(--background);
+.userProfileInnerThemedNonPremium_ed9022 {
+  background-color: var(--background);
 }
 
 /* --== Hide weird unused stuff ==-- */
-.theme-dark .children-3xh0VB:after,
-.form-3gdLxP::before,
-.option-ayUoaq:after {
-    display: none;
+.theme-dark .children_cde9af:after,
+.form_d8a4a1::before,
+.option__91497:after {
+  display: none;
 }
 
 /* --== Make sure friends without custom profile-background just get the theme default, by default ==-- */
 .userPanelInnerThemed-2xZFjl {
-    background-color: var(--background);
+  background-color: var(--background);
 }
 
 /* --== Style channels ==-- */
-.containerDefault-YUSmu3 {
-    .name-28HaxV {
-        color: var(--channel-icon);
+.containerDefault_ae2ea4 {
+  .name__4eb92 {
+    color: var(--channel-icon);
+  }
+
+  .modeMuted_f0a72e {
+    .name__4eb92 {
+      color: var(--interactive-muted);
+    }
+  }
+
+  .modeSelected__473f1,
+  .modeUnreadImportant__35358 {
+    .icon__67ab4 {
+      color: var(--text);
+    }
+  }
+
+  .modeSelected__473f1 {
+    .name__4eb92 {
+      color: var(--text);
     }
 
-    .modeMuted-2T4MDZ {
-        .name-28HaxV {
-            color: var(--interactive-muted);
-        }
+    .wrapper__612a5 {
+      background-color: rgba(var(--rgb-highlight), 20%);
     }
-
-    .modeSelected-3DmyhH, .modeUnread-3Cxepe {
-        .icon-2W8DHg {
-            color: var(--text);
-        }
-    }
-
-    .modeSelected-3DmyhH {
-        .name-28HaxV {
-            color: var(--text);
-        }
-    }
+  }
 }
 
 /* --== Fix invisible reaction count =-- */
-.reactionMe-1PwQAc {
-    .reactionCount-26U4As {
-        color: var(--background) !important;
-    }
+.reactionMe__0fffc {
+  .reactionCount__2c34d {
+    color: var(--background) !important;
+  }
 }
 
 /* --== Fix illegible bot tag ==-- */
-.botText-1fD6Qk, .botTagVerified-2KCPMa {
-    color: var(--background);
+.botText_daff56,
+.botTagVerified__3e0e4 {
+  color: var(--background);
+}
+
+/* --== Fix super bright replying highlights ==-- */
+.replying__38514:hover {
+  background-color: rgba(var(--rgb-highlight), 60%) !important;
+}
+
+/* --== Fix super bright bot-replying highlights ==-- */
+.ephemeral_eb5d84 {
+  background-color: rgba(var(--rgb-highlight), 30%);
+}
+
+.ephemeral_eb5d84:hover {
+  background-color: rgba(var(--rgb-highlight), 40%) !important;
+}
+
+/* --== Change mentioned color bar ==-- */
+.mentioned_fa6fd2::before {
+  background-color: var(--highlight);
 }

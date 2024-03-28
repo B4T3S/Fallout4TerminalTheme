@@ -1,9 +1,9 @@
 /**
  * @name Fallout 4 Terminal
- * @author Bates#7075
- * @version 2.0.0
- * @source https://github.com/CommandCrafterHD/Fallout4TerminalTheme
- * @website https://commandcrafterhd.github.io/Fallout4TerminalTheme
+ * @author Bates
+ * @version 2.0.1
+ * @source https://github.com/B4T3S/Fallout4TerminalTheme
+ * @website https://B4T3S.github.io/Fallout4TerminalTheme
  * @donate https://www.paypal.com/paypalme/floriancegledi
  * @patreon https://patreon.com/bates
  * @description A theme inspired by Fallout 4's terminals!
@@ -11,10 +11,10 @@
  * @invite 6qd3SkP6Ch
 */
 
-@import url('https://commandcrafterhd.github.io/Fallout4TerminalTheme/mainRewrite.css');
+@import url('https://B4T3S.github.io/Fallout4TerminalTheme/mainRewrite.css');
 /* ^ This is the main Import ^ DO NOT TOUCH. Without this, the theme won't load!!! */
 
-@import url('https://commandcrafterhd.github.io/Fallout4TerminalTheme/css/crtEffect.css');
+@import url('https://B4T3S.github.io/Fallout4TerminalTheme/css/crtEffect.css');
 /* ^ This is the CRT effect. If you don't like it, remove or uncomment this line! ^ */
 
 /* CUSTOMIZE COLORS IN HERE! */
@@ -36,7 +36,7 @@
   --background-blur: 5px; /* Blurs the image which usually helps with readability of text infront of it */
   --background-brightness: 100%; /* Changes the background images brightness */
   
-  --title-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg"); /* The .svg file used for the "ROBCO Industries (TM) terminal" title */
+  --title-image: url("https://B4T3S.github.io/Fallout4TerminalTheme/svg/title.svg"); /* The .svg file used for the "ROBCO Industries (TM) terminal" title */
   --title-image-repeat: no-repeat; /* If the title image should repeat */
   --title-image-size: cover; /* The size of the title image */
   --title-image-color: var(--highlight); /* The color used for the title image */

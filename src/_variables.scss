@@ -1,11 +1,9 @@
 :root,
 .theme-dark,
 .theme-light {
-    --rgb-highlight: 74, 239, 152;
     --highlight: rgb(var(--rgb-highlight));
     --rgb-background: 0, 9, 0;
     --background: rgb(var(--rgb-background));
-    --rgb-text: 74, 239, 152;
     --text: rgb(var(--rgb-text));
     --rgb-close-button: 212, 18, 39;
     --close-button: rgb(var(--rgb-close-button));
@@ -172,5 +170,7 @@
         --brand-experiment-#{$counter}a: var(--highlight);
         $counter: $counter + 5;
     }
+
+    --primary-630: var(--background);
 
 }
