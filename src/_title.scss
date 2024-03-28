@@ -1,14 +1,14 @@
-.wordmarkWindows__05c46 svg {
-    width: 0px;
+.wordmarkWindows_ffbc5e svg {
+  width: 0px;
 }
 
-.wordmarkWindows__05c46::after {
-    content: '';
-    display: inline-block;
-    -webkit-mask-image: var(--title-image);
-    -webkit-mask-repeat: var(--title-image-repeat);
-    -webkit-mask-size: var(--title-image-size);
-    background-color: var(--title-image-color);
-    width: var(--title-image-width) !important;
-    height: var(--title-image-height) !important;
+.wordmarkWindows_ffbc5e::after {
+  content: "";
+  display: inline-block;
+  -webkit-mask-image: var(--title-image);
+  -webkit-mask-repeat: var(--title-image-repeat);
+  -webkit-mask-size: var(--title-image-size);
+  background-color: var(--title-image-color);
+  width: var(--title-image-width) !important;
+  height: var(--title-image-height) !important;
 }
