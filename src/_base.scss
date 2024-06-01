@@ -68,7 +68,7 @@ body {
 .pageWrapper_c182d3,
 // The Forum page 
 .container_b92032 {
-    background: transparent !important;
+  background: transparent !important;
 }
 
 /* --== Style the online/afk/dnd icons ==-- */
@@ -147,7 +147,7 @@ body {
 }
 
 /* --== Style profile ==-- */
-.userProfileInnerThemedNonPremium_ed9022 {
+.userProfileInnerThemedNonPremium_b64fb4 {
   background-color: var(--background);
 }
 
@@ -223,4 +223,13 @@ body {
 /* --== Change mentioned color bar ==-- */
 .mentioned_fa6fd2::before {
   background-color: var(--highlight);
+}
+
+.lookFilled__950dd.colorBrand__27d57 {
+  background-color: var(--interactive-normal);
+  color: var(--background);
+
+  &:hover {
+    background-color: var(--interactive-hover);
+  }
 }
