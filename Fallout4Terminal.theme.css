@@ -35,11 +35,12 @@
   --background-size: cover; /* Scales the background image */
   --background-blur: 5px; /* Blurs the image which usually helps with readability of text infront of it */
   --background-brightness: 100%; /* Changes the background images brightness */
-  
-  --title-image: url("https://B4T3S.github.io/Fallout4TerminalTheme/svg/title.svg"); /* The .svg file used for the "ROBCO Industries (TM) terminal" title */
-  --title-image-repeat: no-repeat; /* If the title image should repeat */
-  --title-image-size: cover; /* The size of the title image */
-  --title-image-color: var(--highlight); /* The color used for the title image */
-  --title-image-width: 240px; /* The width of the title image */
-  --title-image-height: 14px; /* The height of the title image */
+ 
+  --show-original-title: 0; /* Whether you want to show discords original title (0 means no, 1 means yes) */
+  --show-custom-title: 1; /* Whether you want to show a custom title (0 means no, 1 means yes) */
+  --custom-title-text: "ROBCO Industries (tm)"; /* The custom text you want to display */
+  --custom-title-font-size: 16px; /* The size in pixels of the custom title text */
+  --custom-title-font-weight: bold; /* The font "weight" of the custom title text. For reference: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+  --custom-title-margin-top: 0px; /* The distance from the top of the window to the custom title text */
+  --custom-title-margin-left: 0px; /* The distance from the left side of the window to the custom title text */
 }

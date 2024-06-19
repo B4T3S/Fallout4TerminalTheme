@@ -25,19 +25,19 @@
 
   --transition-time: 0.3s;
 
-  // --background-image: url(https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/BasicBackground/_res/background.jpg?raw=true);
   --background-image: unset;
   --background-position: center;
   --background-size: cover;
   --background-blur: 5px;
   --background-brightness: 100%;
 
-  --title-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg");
-  --title-image-repeat: no-repeat;
-  --title-image-size: cover;
-  --title-image-color: var(--highlight);
-  --title-image-width: 240px;
-  --title-image-height: 14px;
+  --show-original-title: 0;
+  --show-custom-title: 1;
+  --custom-title-text: "ROBCO Industries (tm)";
+  --custom-title-font-size: 16px;
+  --custom-title-font-weight: bold;
+  --custom-title-margin-top: 0px;
+  --custom-title-margin-left: 0px;
 
   /* --== Modifying some default variables ==-- */
 
