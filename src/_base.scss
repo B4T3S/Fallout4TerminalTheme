@@ -39,7 +39,7 @@ body {
 .container_cbd271,
 .members_cbd271,
 .content_a7d72e,
-.container_e9f61e,
+.container_d808b0,
 // The chat box
 .scrollableContainer_d0696b,
 .channelTextArea_d0696b,
@@ -50,8 +50,8 @@ body {
 .container_bf550a,
 .itemCard_f02fcf,
 .section_cd82a7,
-.inset_c0f6a6,
-.container_e44302,
+.inset_ac5d22,
+.container_fc4f04,
 .privateChannels_f0963d,
 .scroller_c47fa9,
 // The settings page
@@ -101,11 +101,11 @@ body {
 }
 
 /* --== Style the unread message bar ==-- */
-.isUnread_fc5f50 {
+.isUnread_c2654d {
   border: 1px solid var(--highlight);
 }
 
-.content_fc5f50 {
+.content_c2654d {
   color: var(--highlight) !important;
 }
 
@@ -120,23 +120,23 @@ body {
   border-radius: 2px;
 }
 
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
   color: var(--highlight);
   fill: var(--highlight);
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
   background-color: var(--highlight);
   color: var(--background) !important;
 }
 
-.bar_c10249 {
+.bar_edf32f {
   background-color: var(--highlight);
   color: var(--background);
 }
 
 /* --== Style the autocomplete window! ==-- */
-.autocomplete_f23da8 {
+.autocomplete_bcc24e {
   background-color: var(--background) !important;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 /* --== Hide weird unused stuff ==-- */
-.theme-dark .children_e44302:after,
+.theme-dark .children_fc4f04:after,
 .form_a7d72e::before,
 .option_b0286e:after {
   display: none;
@@ -201,8 +201,8 @@ body {
 }
 
 /* --== Fix illegible bot tag ==-- */
-.botText_a02df3,
-.botTagVerified_a02df3 {
+.botText_a9e77f,
+.botTagVerified_a9e77f {
   color: var(--background);
 }
 
