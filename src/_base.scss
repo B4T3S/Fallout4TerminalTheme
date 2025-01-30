@@ -16,81 +16,83 @@ body {
 
 /* --== Make everything (which needs to be) transparent ==-- */
 // The main App background
-.appMount_ea7e65,
-.app_a01fb1,
-.bg_d4b6c5,
+.appMount__51fd7,
+.app__160d8,
+.bg__960e4,
 // The guild list
-.guilds_a4d4d9,
-.scroller_fea3ef,
+.guilds_c48ade,
+.scroller_ef3116,
 // The channel list
-.sidebar_a4d4d9,
-.container_ee69e0,
+.sidebar_c48ade,
+.container__2637a,
 // The mute/deafen/settings panel
-.panels_a4d4d9,
-.container_b2ca13,
+.panels_c48ade,
+.container__37e49,
 // The chat
-.chat_a7d72e,
-.chatContent_a7d72e,
+.chat_f75fb0,
+.chatContent_f75fb0,
 // The title bar
-.title_a7d72e,
+.title_f75fb0,
 // The search bar,
-.searchBar_a46bef,
+.searchBar__97492,
 // The user list
-.container_cbd271,
-.members_cbd271,
-.content_a7d72e,
-.container_d808b0,
+.container_c8ffbb,
+.members_c8ffbb,
+.content_f75fb0,
+.container__91a9d,
 // The chat box
-.scrollableContainer_d0696b,
-.channelTextArea_d0696b,
+.scrollableContainer__74017,
+.channelTextArea__74017,
 // The friends page
-.container_c2739c,
-.section_cd82a7,
-.nowPlayingColumn_c2739c,
-.container_bf550a,
-.itemCard_f02fcf,
-.section_cd82a7,
-.inset_ac5d22,
-.container_fc4f04,
-.privateChannels_f0963d,
-.scroller_c47fa9,
+.container__133bf,
+.section__00943,
+.nowPlayingColumn__133bf,
+.container__7d20c,
+.itemCard__7e549,
+.section__00943,
+.inset_bf1984,
+.container__9293f,
+.privateChannels__35e86,
+.scroller__99e7c,
 // The settings page
-.layer_d4b6c5 ,
-.standardSidebarView_c25c6d,
-.sidebarRegionScroller_c25c6d,
-.contentRegion_c25c6d,
-.contentRegionScroller_c25c6d,
+.layer__960e4 ,
+.standardSidebarView__23e6b,
+.sidebarRegionScroller__23e6b,
+.contentRegion__23e6b,
+.contentRegionScroller__23e6b,
 // The Library page
-.container_ad8f79,
-.stickyHeader_f1629a,
-.scroller_c100ff,
+.container__4a84a,
+.stickyHeader_adb41f,
+.scroller_fb04e1,
 // The Explore servers page
 .pageWrapper_a3a4ce,
+// The Explore servers icon
+.footer__214dc,
 // The Forum page 
-.container_a6d69a {
+.container_f369db {
   background: transparent !important;
 }
 
 /* --== Style the online/afk/dnd icons ==-- */
 
 /* --== THIS PART WAS YOINKED FROM _DAVID_! THANKS DAVID! ==-- */
-#app-mount .wrapper_c51b4e rect[fill="#593695"],
-#app-mount .wrapper_c51b4e rect[mask*="streaming"] {
+#app-mount .wrapper__44b0c rect[fill="#593695"],
+#app-mount .wrapper__44b0c rect[mask*="streaming"] {
   fill: var(--streaming-color);
 }
 
-#app-mount .wrapper_c51b4e rect[fill="#43b581"],
-#app-mount .wrapper_c51b4e rect[mask*="online"] {
+#app-mount .wrapper__44b0c rect[fill="#43b581"],
+#app-mount .wrapper__44b0c rect[mask*="online"] {
   fill: var(--online-color);
 }
 
-#app-mount .wrapper_c51b4e rect[fill="#faa61a"],
-#app-mount .wrapper_c51b4e rect[mask*="idle"] {
+#app-mount .wrapper__44b0c rect[fill="#faa61a"],
+#app-mount .wrapper__44b0c rect[mask*="idle"] {
   fill: var(--afk-color);
 }
 
-#app-mount .wrapper_c51b4e rect[fill="#f04747"],
-#app-mount .wrapper_c51b4e rect[mask*="dnd"] {
+#app-mount .wrapper__44b0c rect[fill="#f04747"],
+#app-mount .wrapper__44b0c rect[mask*="dnd"] {
   fill: var(--dnd-color);
 }
 
@@ -101,16 +103,16 @@ body {
 }
 
 /* --== Style the unread message bar ==-- */
-.isUnread_c2654d {
+.isUnread__908e2 {
   border: 1px solid var(--highlight);
 }
 
-.content_c2654d {
+.content__908e2 {
   color: var(--highlight) !important;
 }
 
-.wrapper_d8bfb3:hover {
-  .unread_d8bfb3 {
+.wrapper__2ea32:hover {
+  .unread__2ea32 {
     background-color: var(--highlight);
   }
 }
@@ -120,28 +122,28 @@ body {
   border-radius: 2px;
 }
 
-.unreadPillCapStroke_c2654d {
+.unreadPillCapStroke__908e2 {
   color: var(--highlight);
   fill: var(--highlight);
 }
 
-.unreadPill_c2654d {
+.unreadPill__908e2 {
   background-color: var(--highlight);
   color: var(--background) !important;
 }
 
-.bar_edf32f {
+.bar__3b95d {
   background-color: var(--highlight);
   color: var(--background);
 }
 
 /* --== Style the autocomplete window! ==-- */
-.autocomplete_bcc24e {
+.autocomplete__13533 {
   background-color: var(--background) !important;
 }
 
 /* --== Style chat  ==-- */
-.channelTextArea_a7d72e {
+.channelTextArea_f75fb0 {
   border: 1px solid var(--highlight);
   background-color: var(--background) !important;
 }
@@ -152,9 +154,9 @@ body {
 }
 
 /* --== Hide weird unused stuff ==-- */
-.theme-dark .children_fc4f04:after,
-.form_a7d72e::before,
-.option_b0286e:after {
+.theme-dark .children__9293f:after,
+.form_f75fb0::before,
+.option__56fec:after {
   display: none;
 }
 
@@ -164,68 +166,68 @@ body {
 }
 
 /* --== Style channels ==-- */
-.containerDefault_f6f816 {
-  .name_d8bfb3 {
+.containerDefault_c69b6d {
+  .name__2ea32 {
     color: var(--channel-icon);
   }
 
-  .modeMuted_d8bfb3 {
-    .name_d8bfb3 {
+  .modeMuted__2ea32 {
+    .name__2ea32 {
       color: var(--interactive-muted);
     }
   }
 
-  .modeSelected_d8bfb3,
-  .modeUnreadImportant_d8bfb3 {
-    .icon_d8bfb3 {
+  .modeSelected__2ea32,
+  .modeUnreadImportant__2ea32 {
+    .icon__2ea32 {
       color: var(--text);
     }
   }
 
-  .modeSelected_d8bfb3 {
-    .name_d8bfb3 {
+  .modeSelected__2ea32 {
+    .name__2ea32 {
       color: var(--text);
     }
 
-    .wrapper_d8bfb3 {
+    .wrapper__2ea32 {
       background-color: rgba(var(--rgb-highlight), 20%);
     }
   }
 }
 
 /* --== Fix invisible reaction count =-- */
-.reactionMe_ec6b19 {
-  .reactionCount_ec6b19 {
+.reactionMe__23977 {
+  .reactionCount__23977 {
     color: var(--background) !important;
   }
 }
 
 /* --== Fix illegible bot tag ==-- */
-.botText_a9e77f,
-.botTagVerified_a9e77f {
+.botText__82f07,
+.botTagVerified__82f07 {
   color: var(--background);
 }
 
 /* --== Fix super bright replying highlights ==-- */
-.replying_d5deea:hover {
+.replying__5126c:hover {
   background-color: rgba(var(--rgb-highlight), 60%) !important;
 }
 
 /* --== Fix super bright bot-replying highlights ==-- */
-.ephemeral_d5deea {
+.ephemeral__5126c {
   background-color: rgba(var(--rgb-highlight), 30%);
 }
 
-.ephemeral_d5deea:hover {
+.ephemeral__5126c:hover {
   background-color: rgba(var(--rgb-highlight), 40%) !important;
 }
 
 /* --== Change mentioned color bar ==-- */
-.mentioned_d5deea::before {
+.mentioned__5126c::before {
   background-color: var(--highlight);
 }
 
-.lookFilled_dd4f85.colorBrand_dd4f85 {
+.lookFilled__201d5.colorBrand__201d5 {
   background-color: var(--interactive-normal);
   color: var(--background);
 
