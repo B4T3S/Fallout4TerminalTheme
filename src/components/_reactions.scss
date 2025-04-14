@@ -1,0 +1,19 @@
+.theme-dark {
+  /* --== Fix invisible reaction count =-- */
+  .reactionMe__23977 {
+    border-color: var(--highlight) !important;
+
+    .reactionCount__23977 {
+      color: var(--background) !important;
+    }
+  }
+
+  /* --== Add border to reactions ==-- */
+    .reaction__23977, .reactionBtn__23977 {
+        border-color: rgba(var(--rgb-highlight), 30%);
+    }
+
+    .reactionBtn__23977:hover {
+        border-color: var(--rgb-highlight);
+    }
+}

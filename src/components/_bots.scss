@@ -1,0 +1,7 @@
+.theme-dark {
+  /* --== Fix illegible "app" tag ==-- */
+  .botText__82f07,
+  .botTagVerified__82f07 {
+    color: var(--background);
+  }
+}

@@ -1,0 +1,43 @@
+.theme-dark {
+  /* --== Style the unread number-badges ==-- */
+  .numberBadge__40d6f {
+    background-color: rgba(var(--rgb-highlight), 70%) !important;
+    color: var(--background);
+  }
+
+  /* --== Style the unread message bar ==-- */
+  .isUnread__908e2 {
+    border: 1px solid var(--highlight);
+  }
+
+  .content__908e2 {
+    color: var(--highlight);
+  }
+
+  .wrapper__2ea32:hover {
+    .unread__2ea32 {
+      background-color: var(--highlight);
+    }
+  }
+
+  .guildSeparator-33mFX6 {
+    background-color: var(--highlight);
+    border-radius: 2px;
+  }
+
+  .unreadPillCapStroke__908e2 {
+    color: var(--highlight);
+    fill: var(--highlight);
+  }
+
+  .unreadPill__908e2 {
+    background-color: var(--highlight);
+    color: var(--background) !important;
+  }
+
+  .bar__3b95d,
+  .newMessagesBar__0f481 {
+    background-color: var(--highlight);
+    color: var(--background);
+  }
+}

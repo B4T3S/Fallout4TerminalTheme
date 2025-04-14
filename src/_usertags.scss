@@ -1,0 +1,68 @@
+/* --== Author tag ==-- */
+img[src*="avatars/137259132305539072"] + .header_c19a55,
+img[src*="users/137259132305539072"] + .header_c19a55 {
+  &::after {
+    content: " Theme Author";
+    display: inline-block;
+    // background-image: url("https://b4t3s.github.io/DiscordDarkNeon/svg/crayon.svg");
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTExLjQgMTguMTYxbDcuMzk2LTcuMzk2YTEwLjMgMTAuMyAwIDAgMS0zLjMyNi0yLjIzNGExMC4zIDEwLjMgMCAwIDEtMi4yMzUtMy4zMjdMNS44MzkgMTIuNmMtLjU3Ny41NzctLjg2Ni44NjYtMS4xMTQgMS4xODRhNi42IDYuNiAwIDAgMC0uNzQ5IDEuMjExYy0uMTczLjM2NC0uMzAyLjc1Mi0uNTYgMS41MjZsLTEuMzYyIDQuMDgzYTEuMDYgMS4wNiAwIDAgMCAxLjM0MiAxLjM0Mmw0LjA4My0xLjM2MmMuNzc1LS4yNTggMS4xNjItLjM4NyAxLjUyNi0uNTZxLjY0Ny0uMzA4IDEuMjExLS43NDljLjMxOC0uMjQ4LjYwNy0uNTM3IDEuMTg0LTEuMTE0bTkuNDQ4LTkuNDQ4YTMuOTMyIDMuOTMyIDAgMCAwLTUuNTYxLTUuNTYxbC0uODg3Ljg4N2wuMDM4LjExMWE4Ljc1IDguNzUgMCAwIDAgMi4wOTIgMy4zMmE4Ljc1IDguNzUgMCAwIDAgMy40MzEgMi4xM3oiLz48L3N2Zz4=');
+    background-size: 12px 12px;
+    background-position: 3px;
+    background-repeat: no-repeat;
+    background-color: var(--highlight);
+    color: var(--background);
+    width: 15px !important;
+    height: 13px !important;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    margin-left: 5px;
+    margin-bottom: -3px;
+    font-size: 10px;
+    font-weight: 600;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 3px;
+    transition-duration: var(--transition-time);
+  }
+
+  &:hover {
+    &::after {
+      padding-left: 16px;
+      width: 70px !important;
+    }
+  }
+}
+
+/* --== Theme Supporter tag ==-- */
+// img[src*="/avatars/<ID>"] + .header_c19a55,
+// img[src*="/users/<ID>"] + .header_c19a55 {
+//   &::after {
+//     content: " Theme Supporter";
+//     display: inline-block;
+//     background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTkuMTUzIDUuNDA4QzEwLjQyIDMuMTM2IDExLjA1MyAyIDEyIDJzMS41OCAxLjEzNiAyLjg0NyAzLjQwOGwuMzI4LjU4OGMuMzYuNjQ2LjU0Ljk2OS44MiAxLjE4MnMuNjMuMjkyIDEuMzMuNDVsLjYzNi4xNDRjMi40Ni41NTcgMy42ODkuODM1IDMuOTgyIDEuNzc2Yy4yOTIuOTQtLjU0NiAxLjkyMS0yLjIyMyAzLjg4MmwtLjQzNC41MDdjLS40NzYuNTU3LS43MTUuODM2LS44MjIgMS4xOGMtLjEwNy4zNDUtLjA3MS43MTcuMDAxIDEuNDZsLjA2Ni42NzdjLjI1MyAyLjYxNy4zOCAzLjkyNS0uMzg2IDQuNTA2cy0xLjkxOC4wNTEtNC4yMi0xLjAwOWwtLjU5Ny0uMjc0Yy0uNjU0LS4zMDItLjk4MS0uNDUyLTEuMzI4LS40NTJzLS42NzQuMTUtMS4zMjguNDUybC0uNTk2LjI3NGMtMi4zMDMgMS4wNi0zLjQ1NSAxLjU5LTQuMjIgMS4wMWMtLjc2Ny0uNTgyLS42NC0xLjg5LS4zODctNC41MDdsLjA2Ni0uNjc2Yy4wNzItLjc0NC4xMDgtMS4xMTYgMC0xLjQ2Yy0uMTA2LS4zNDUtLjM0NS0uNjI0LS44MjEtMS4xOGwtLjQzNC0uNTA4Yy0xLjY3Ny0xLjk2LTIuNTE1LTIuOTQxLTIuMjIzLTMuODgyUzMuNTggOC4zMjggNi4wNCA3Ljc3MmwuNjM2LS4xNDRjLjY5OS0uMTU4IDEuMDQ4LS4yMzcgMS4zMjktLjQ1cy40Ni0uNTM2LjgyLTEuMTgyeiIvPjwvc3ZnPg==');
+//     background-size: 12px 12px;
+//     background-position: 3px;
+//     background-repeat: no-repeat;
+//     background-color: var(--highlight);
+//     color: var(--background);
+//     width: 15px !important;
+//     height: 13px !important;
+//     padding-bottom: 5px;
+//     padding-right: 3px;
+//     margin-left: 5px;
+//     margin-bottom: -3px;
+//     font-size: 10px;
+//     font-weight: 600;
+//     overflow: hidden;
+//     text-align: center;
+//     border-radius: 3px;
+//     transition-duration: var(--transition-time);
+//   }
+
+//   &:hover {
+//     &::after {
+//       padding-left: 16px;
+//       width: 85px !important;
+//     }
+//   }
+// }

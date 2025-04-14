@@ -1,0 +1,22 @@
+.theme-dark {
+  /* --== Style the online/afk/dnd icons ==-- */
+
+  /* --== THIS PART WAS YOINKED FROM _DAVID_! THANKS DAVID! ==-- */
+
+  #app-mount .wrapper__44b0c rect[fill="#593695"],
+  #app-mount .wrapper__44b0c rect[mask*="streaming"] {
+    fill: var(--streaming-color);
+  }
+  #app-mount .wrapper__44b0c rect[fill="#43b581"],
+  #app-mount .wrapper__44b0c rect[mask*="online"] {
+    fill: var(--online-color);
+  }
+  #app-mount .wrapper__44b0c rect[fill="#faa61a"],
+  #app-mount .wrapper__44b0c rect[mask*="idle"] {
+    fill: var(--afk-color);
+  }
+  #app-mount .wrapper__44b0c rect[fill="#f04747"],
+  #app-mount .wrapper__44b0c rect[mask*="dnd"] {
+    fill: var(--dnd-color);
+  }
+}

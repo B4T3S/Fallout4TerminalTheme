@@ -1,0 +1,30 @@
+.theme-dark {
+  /* --== Set chat background color to fix transparency issues ==-- */
+  .scrollableContainer__74017 {
+    background-color: var(--background);
+  }
+
+  /* --== Fix super bright replying highlights ==-- */
+  .replying__5126c:hover {
+    background-color: rgba(var(--rgb-highlight), 60%) !important;
+  }
+
+  /* --== Fix super bright bot-replying highlights ==-- */
+  .ephemeral__5126c {
+    background-color: rgba(var(--rgb-highlight), 30%);
+  }
+
+  .ephemeral__5126c:hover {
+    background-color: rgba(var(--rgb-highlight), 40%) !important;
+  }
+
+  /* --== Change mentioned color bar ==-- */
+  .mentioned__5126c::before {
+    background-color: var(--highlight);
+  }
+
+  /* --== Fix the autocomplete ==-- */
+  .autocompleteInner__13533 {
+    background-color: var(--background);
+  }
+}

@@ -15,8 +15,8 @@
 @import "crtEffect.scss";
 
 :root,
-.theme-dark,
-.theme-light {
+.visual-refresh,
+.visual-refresh.theme-dark {
   --rgb-highlight: 274, 239, 152; /* The main highlight color */
   --rgb-background: 0, 9, 90; /* The main background color */
   --rgb-text: 274, 239, 152; /* The color (almost) all text should use */

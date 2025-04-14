@@ -1,0 +1,10 @@
+.theme-dark {
+    .outer_c0bea0:not(.custom-user-profile) {
+        background-color: var(--background);
+
+        .inner_c0bea0.fullSize_c0bea0,
+        .inner_c0bea0.biteSize_c0bea0 {
+            background: inherit;
+        }
+    }
+}

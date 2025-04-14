@@ -1,0 +1,24 @@
+.theme-dark {
+    // --== Style the gif/emoji/sticker picker ==--
+    .contentWrapper__08434, .header__8ef02, .header_fed6d3, .header_c0e32c, .categoryList__3ad28, .scroller_affa7e, .packHeader_e94b8c, .header_c656ac, .inspector_aeaaeb, .emojiPicker_c0e32c, .unicodeShortcut_b9ee0c, #gif-picker-tab-panel {
+        background-color: var(--background);
+    }
+
+    .emptyGuildUpsell_e94b8c {
+        background-color: var(--background);
+        border: 1px solid var(--highlight);
+        margin-bottom: 2px;
+
+        .contents__201d5 {
+            color: var(--highlight);
+        }
+    }
+
+    .categoryItemDefaultCategorySelected_b9ee0c, .stickerCategoryGenericSelected__3ad28 {
+        background-color: var(--highlight);
+    }
+
+    .categoryFadeBlurple_d02962 {
+        --bg-brand: var(--highlight);
+    }
+}

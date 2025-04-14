@@ -1,0 +1,14 @@
+.theme-dark {
+  /* --== Highlight selected channel ==-- */
+  .selected_c69b6d {
+    .icon__2ea32,
+    .actionIcon_c69b6d:hover,
+    .name__2ea32 {
+      color: var(--highlight) !important;
+    }
+
+    .link__2ea32 {
+      background-color: rgba(var(--rgb-highlight), 20%) !important;
+    }
+  }
+}
